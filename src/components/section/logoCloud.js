@@ -1,37 +1,26 @@
+import Image from "next/image"
+import Link from "next/link"
+
 export default function LogoCloud () {
   return (
-    <div className="bg-gray-100">
+    <div className="relative bg-gradient-to-r from-purple-800 to-indigo-700">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
-          Trusted by over 5 very average small businesses
-        </p>
-        <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-          <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <img className="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
-          </div>
-          <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <img className="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
-          </div>
-          <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <img
-              className="h-12"
-              src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
-              alt="StaticKit"
+        <div className="flex flex-col items-center lg:flex-row">
+          <div className="p-2 mb-4 lg:mb-0 lg:p-4 lg:basis-1/3">
+            <Image
+              src="/images/swift-community-awards-logo-2021.webp"
+              height={223}
+              width={300}
+              alt="Swift Community Awards 2021 by Hacking With Swift"
             />
           </div>
-          <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
-            <img
-              className="h-12"
-              src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
-              alt="Transistor"
-            />
-          </div>
-          <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-            <img
-              className="h-12"
-              src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
-              alt="Workcation"
-            />
+          <div className="lg:px-4">
+            <p className="text-center text-xl font-semibold text-white tracking-wide mb-3">
+              Run by iOS Developers, for the community since 2013
+            </p>
+            <p className="text-center text-xl text-white">
+              iOS Conf SG is recognised as a highly commended conference by the <a href="https://www.hackingwithswift.com/awards" className="underline decoration-orange-300">Swift Community Awards</a>.
+            </p>
           </div>
         </div>
       </div>
