@@ -1,20 +1,3 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
-
 import {
   AnnotationIcon,
   ChatAlt2Icon,
@@ -29,11 +12,13 @@ import {
   UsersIcon,
 } from '@heroicons/react/outline'
 
-import Cta from '../section/cta'
-import Footer from '../section/footer'
-import LogoCloud from '../section/logoCloud'
-import Hero from '../section/hero'
-import Header from '../section/header'
+import {
+  Header,
+  Hero,
+  Cta,
+  Footer,
+  LogoCloud
+} from "@/components"
 
 
 const features = [

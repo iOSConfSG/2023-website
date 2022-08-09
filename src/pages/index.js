@@ -1,5 +1,5 @@
 
-import RootLayout from '@/components/layout/root'
+import { RootLayout } from '@/components'
 
 export default function Home() {
   return (
