@@ -44,18 +44,18 @@ const menuItems = [
 
 export default function Header () {
   return (
-    <header>
+    <header className="sticky w-full z-10 top-0">
       <Popover className="relative bg-white">
         <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <Link href="/">
+            <Link href="/" className="cursor-pointer">
               <div className="flex flex-row items-center">
                 <Image
                   src="/images/logo.png"
                   alt="iOS Conf Logo"
                   layout="intrinsic"
                   objectFit="cover"
-                  className="h-8 w-auto sm:h-10"
+                  className="h-8 w-auto sm:h-10 cursor-pointer"
                   height={64}
                   width={64}
                 />
