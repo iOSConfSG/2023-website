@@ -42,10 +42,6 @@ const menuItems = [
   },
 ]
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
-
 export default function Header () {
   return (
     <header>
