@@ -10,3 +10,7 @@ export { default as LogoCloud } from "./section/LogoCloud"
 export { default as PageTitle } from "./section/PageTitle"
 export { default as Cta } from "./section/Cta"
 export { default as Footer } from "./section/Footer"
+
+// UI
+
+export { default as Slideshow } from "./ui/Slideshow"

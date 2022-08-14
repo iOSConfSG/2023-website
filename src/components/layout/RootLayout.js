@@ -17,9 +17,10 @@ import {
   Hero,
   Cta,
   Footer,
-  LogoCloud
+  LogoCloud,
+  Slideshow
 } from "@/components"
-
+import Image from "next/image"
 
 const features = [
   {
@@ -74,6 +75,14 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
+const slideshowImages = [
+  "/images/iosconf2022.jpeg",
+  "/images/iosconf2022-day1.jpeg",
+  "/images/iosconf2022-workshop.jpg",
+  "/images/iosconf2021-workshop.jpeg",
+  "/images/iosconfsg-workshop.jpg",
+]
+
 export default function RootLayout() {
   return (
     <div className="bg-white">
@@ -92,37 +101,19 @@ export default function RootLayout() {
           <div className="relative">
             <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
               <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
-                <div>
-                  <div>
-                    <span className="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600">
-                      <InboxIcon className="h-6 w-6 text-white" aria-hidden="true" />
-                    </span>
-                  </div>
-                  <div className="mt-6">
-                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                      Stay on top of customer support
-                    </h2>
-                    <p className="mt-4 text-lg text-gray-500">
-                      Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                      porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at.
-                      Lectus viverra dui tellus ornare pharetra.
-                    </p>
-                    <div className="mt-6">
-                      <a
-                        href="#"
-                        className="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
-                      >
-                        Get started
-                      </a>
-                    </div>
-                  </div>
+                <div className="mt-6">
+                  <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                    An iOS-packed workshop and conference
+                  </h2>
+                  <p className="mt-4 text-lg text-gray-500">
+                    iOS Conf SG is the largest gathering of iOS / Apple developers in South East Asia.<br/><br/>We had great virtual conferences for the past 2 years and we are very excited to safely welcome every developers again here in Singapore!
+                  </p>
                 </div>
                 <div className="mt-8 border-t border-gray-200 pt-6">
                   <blockquote>
                     <div>
                       <p className="text-base text-gray-500">
-                        &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean
-                        curabitur donec aliquet. Mi venenatis in euismod ut.&rdquo;
+                        &ldquo;testimonies&rdquo;
                       </p>
                     </div>
                     <footer className="mt-3">
@@ -142,51 +133,38 @@ export default function RootLayout() {
                   </blockquote>
                 </div>
               </div>
-              <div className="mt-12 sm:mt-16 lg:mt-0">
-                <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                  <img
-                    className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                    src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
-                    alt="Inbox user interface"
-                  />
-                </div>
+              <div className="my-16 lg:my-24">
+                <Slideshow images={slideshowImages} />
               </div>
             </div>
           </div>
-          <div className="mt-24">
+          <div className="">
             <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-              <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+              <div className="px-4 max-w-xl mx-auto sm:px-6">
                 <div>
-                  <div>
-                    <span className="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600">
-                      <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
-                    </span>
-                  </div>
                   <div className="mt-6">
                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                      Better understand your customers
+                      Support iOS Conf SG 2023!
                     </h2>
                     <p className="mt-4 text-lg text-gray-500">
-                      Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                      porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at.
-                      Lectus viverra dui tellus ornare pharetra.
+                      Your support plays important roles in making iOS Conf SG an exceptional event. Showcase your branding tastefully at our conference. Connect with passionate iOS devs who might use your products and services.
                     </p>
                     <div className="mt-6">
                       <a
                         href="#"
                         className="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
                       >
-                        Get started
+                        Download Sponsorship Deck
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
-                <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                <div className="mx-4">
                   <img
-                    className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                    src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
+                    className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5"
+                    src="/images/iosconf2019.jpeg"
                     alt="Customer profile user interface"
                   />
                 </div>
@@ -198,11 +176,7 @@ export default function RootLayout() {
         {/* Gradient Feature Section */}
         <div className="bg-gradient-to-r from-purple-800 to-indigo-700">
           <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-            <h2 className="text-3xl font-extrabold text-white tracking-tight">Inbox support built for efficiency</h2>
-            <p className="mt-4 max-w-3xl text-lg text-purple-200">
-              Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Blandit
-              aliquam sit nisl euismod mattis in.
-            </p>
+            <h2 className="text-3xl font-extrabold text-white tracking-tight">Speakers</h2>
             <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
               {features.map((feature) => (
                 <div key={feature.name}>
@@ -246,7 +220,7 @@ export default function RootLayout() {
                 </span>
               </h2>
               <p className="mt-3 text-3xl font-extrabold text-white">
-                Get actionable data that will help grow your business
+                Tickets
               </p>
               <p className="mt-5 text-lg text-gray-300">
                 Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare
