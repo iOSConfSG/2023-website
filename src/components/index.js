@@ -11,6 +11,7 @@ export { default as PageTitle } from "./section/PageTitle"
 export { default as Cta } from "./section/Cta"
 export { default as Footer } from "./section/Footer"
 export { default as SpeakersSection } from "./section/Speakers"
+export { default as Tickets } from "./section/Tickets"
 
 // UI
 

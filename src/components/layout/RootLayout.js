@@ -1,26 +1,14 @@
 import {
-  AnnotationIcon,
-  ChatAlt2Icon,
-  ChatAltIcon,
-  DocumentReportIcon,
-  HeartIcon,
-  InboxIcon,
-  PencilAltIcon,
-  ReplyIcon,
-  SparklesIcon,
-  TrashIcon,
-  UsersIcon,
-} from '@heroicons/react/outline'
-
-import {
   Header,
   Hero,
   Footer,
   LogoCloud,
-  Slideshow
+  Slideshow,
+  SpeakersSection,
+  Tickets
 } from "@/components"
 import Image from "next/image"
-import SpeakersSection from "../section/Speakers"
+import Script from "next/script"
 
 const slideshowImages = [
   "/images/iosconf2022.jpeg",
@@ -34,6 +22,7 @@ export default function RootLayout() {
   return (
     <div className="bg-white">
       <Header />
+      <Script src='https://js.tito.io/v2' strategy="lazyOnload"></Script>
 
       <main>
         {/* Hero section */}
@@ -140,37 +129,8 @@ export default function RootLayout() {
               </div>
             </div>
           </div>
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
-            <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-              <h2 className="text-sm font-semibold tracking-wide uppercase">
-                <span className="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">
-                  Valuable Metrics
-                </span>
-              </h2>
-              <p className="mt-3 text-3xl font-extrabold text-white">
-                Tickets
-              </p>
-              <p className="mt-5 text-lg text-gray-300">
-                Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare
-                feugiat viverra eleifend fusce orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet amet
-                lacus nibh integer quis. Eu vulputate diam sit tellus quis at.
-              </p>
-              <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
-                {metrics.map((item) => (
-                  <p key={item.id}>
-                    <span className="block text-2xl font-bold text-white">{item.stat}</span>
-                    <span className="mt-1 block text-base text-gray-300">
-                      <span className="font-medium text-white">{item.emphasis}</span> {item.rest}
-                    </span>
-                  </p>
-                ))}
-              </div>
-            </div>
-          </div>
+          <Tickets />
         </div>
-
-        {/* CTA Section */}
-        <Cta />
       </main>
       <Footer />
     </div>
