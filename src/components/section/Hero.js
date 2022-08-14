@@ -21,7 +21,7 @@ export default function Hero () {
               <span className="block text-orange-200">in ☀️ Singapore</span>
             </h1>
             <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
-              Welcoming you on 20 January 2023!<br />
+              Welcoming you on 12-13 January 2023!<br />
               Early birds available from 28 August 2022.
             </p>
             <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
