@@ -4,7 +4,8 @@ import {
   Footer,
   LogoCloud,
   Slideshow,
-  SpeakersSection,
+  Speakers,
+  Sponsors,
   Tickets
 } from "@/components"
 import Image from "next/image"
@@ -110,7 +111,8 @@ export default function RootLayout() {
         </div>
 
         {/* Gradient Feature Section */}
-        <SpeakersSection />
+        <Speakers />
+        <Sponsors />
 
         {/* Stats section */}
         <div className="relative bg-gray-900">
