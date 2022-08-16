@@ -1,14 +1,14 @@
 
 import { PageTitle, Header, Footer } from "@/components"
 
-export default function About () {
+export default function Faq () {
   return (
     <div className="bg-white">
       <Header />
 
       <main>
         <div className="relative">
-          <PageTitle title="About Us"/>
+          <PageTitle title="Frequently Asked Questions"/>
         </div>
       </main>
       
