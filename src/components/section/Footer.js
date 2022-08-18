@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { FooterNavigationData } from "@/data"
 
 export default function Footer () {
@@ -25,7 +26,7 @@ export default function Footer () {
                 <div className="mt-12 md:mt-0">
                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">iOS Dev Scout</h3>
                   <ul role="list" className="mt-4 space-y-4">
-                    {FooterNavigationData.iosdevscout.map((item) => (
+                    {FooterNavigationData.pastEventsOne.map((item) => (
                       <li key={item.name}>
                         <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
                           {item.name}
@@ -39,7 +40,7 @@ export default function Footer () {
                 <div>
                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Past Events</h3>
                   <ul role="list" className="mt-4 space-y-4">
-                    {FooterNavigationData.pastEventsOne.map((item) => (
+                    {FooterNavigationData.pastEventsTwo.map((item) => (
                       <li key={item.name}>
                         <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
                           {item.name}
@@ -49,16 +50,10 @@ export default function Footer () {
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
-                  <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">&nbsp;</h3>
-                  <ul role="list" className="mt-4 space-y-4">
-                    {FooterNavigationData.pastEventsTwo.map((item) => (
-                      <li key={item.name}>
-                        <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
-                          {item.name}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
+                  <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Powered by</h3>
+                    <div className="mt-4">
+                      <img className="mt-0 w-24" src="/images/vercel.svg" alt="Powered by Vercel" />
+                    </div>
                 </div>
               </div>
             </div>
