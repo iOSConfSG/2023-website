@@ -22,7 +22,7 @@ export default function Hero () {
             </h1>
             <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
               Welcoming you on 12-13 January 2023!<br />
-              Early birds available from 28 August 2022.
+              Early birds available from 1 September 2022, 9pm Singapore time.
             </p>
             <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
