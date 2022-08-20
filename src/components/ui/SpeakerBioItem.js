@@ -37,7 +37,7 @@ function SpeakerBioItem (props) {
               </div>
               {
                 speaker.bio &&
-                <p className="text-sm font-light">{speaker.shortBio}</p>
+                <p className="text-sm text-center font-light">{speaker.shortBio}</p>
               }              
             </div>
           </div>
