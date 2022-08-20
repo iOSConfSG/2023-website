@@ -1,3 +1,11 @@
 @tailwind base;
+
+@layer base {
+  a {
+    @apply text-orange-500 underline;
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
+
