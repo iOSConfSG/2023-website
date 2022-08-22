@@ -1,4 +1,5 @@
 export { default as SpeakersData } from "./speakers"
 export { default as SponsorsData } from "./sponsors"
+export { default as OrganiserData } from "./organisers"
 export { default as FaqData } from "./faq"
 export { default as FooterNavigationData } from "./footerNavigation"
