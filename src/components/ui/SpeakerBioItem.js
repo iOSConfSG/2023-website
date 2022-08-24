@@ -36,7 +36,7 @@ function SpeakerBioItem (props) {
                 </Link>}
               </div>
               {
-                speaker.bio &&
+                speaker.shortBio &&
                 <p className="text-sm text-center font-light">{speaker.shortBio}</p>
               }              
             </div>

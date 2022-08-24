@@ -37,7 +37,7 @@ const menuItems = [
     id: "organisers",
     title: "Organisers",
     description: "iOS Conf SG 2022 Organising Team",
-    href: "/about",
+    href: "/organisers",
     icon: QuestionMarkCircleIcon,
   },
 ]
