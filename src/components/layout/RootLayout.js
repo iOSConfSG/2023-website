@@ -47,29 +47,6 @@ export default function RootLayout() {
                     iOS Conf SG is the largest gathering of iOS / Apple developers in South East Asia.<br/><br/>We had great virtual conferences for the past 2 years and we are very excited to safely welcome every developers again here in Singapore!
                   </p>
                 </div>
-                <div className="mt-8 border-t border-gray-200 pt-6">
-                  <blockquote>
-                    <div>
-                      <p className="text-base text-gray-500">
-                        &ldquo;testimonies&rdquo;
-                      </p>
-                    </div>
-                    <footer className="mt-3">
-                      <div className="flex items-center space-x-3">
-                        <div className="flex-shrink-0">
-                          <img
-                            className="h-6 w-6 rounded-full"
-                            src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                            alt=""
-                          />
-                        </div>
-                        <div className="text-base font-medium text-gray-700">
-                          Marcia Hill, Digital Marketing Manager
-                        </div>
-                      </div>
-                    </footer>
-                  </blockquote>
-                </div>
               </div>
               <div className="my-16 lg:my-24">
                 <Slideshow images={slideshowImages} />
@@ -113,7 +90,6 @@ export default function RootLayout() {
 
         {/* Gradient Feature Section */}
         <Speakers />
-        <Sponsors />
 
         {/* Stats section */}
         <Tickets />

@@ -17,7 +17,7 @@ export default function Organisers () {
 
             <p><strong>iOS Conf SG</strong> is recognised as <a href="https://www.hackingwithswift.com/awards" target="_blank" rel="noreferrer">a highly commended conference</a> by the Swift Community Awards. Participants find our event most interesting, insightful, or beneficial for their careers.</p>            
             <br/>
-            <p>You may contact us:
+            <p>You may contact us:</p>
               <ul>
                 <li>
                   Subhransu Behera : +65 8388 7595 | {" "}
@@ -28,7 +28,6 @@ export default function Organisers () {
                   <a href="mailto:melvin&#64;iosconf.sg">melvin@iosconf.sg</a>
                 </li>
               </ul>
-            </p>
             <br />
             <p><strong>IOS CONF SG PTE. LTD.</strong> is the registered entity under which we organise the event.</p>
           </div>

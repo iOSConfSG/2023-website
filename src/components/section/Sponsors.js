@@ -6,7 +6,7 @@ export default function SponsorSection () {
     <div id="sponsors" className="bg-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <p className="text-center text-4xl font-semibold text-black">
-          Gold Sponsors
+          Sponsors
         </p>
         <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
           {
