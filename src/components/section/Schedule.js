@@ -6,6 +6,9 @@ export default function ScheduleSection () {
         <p className="text-center text-4xl font-semibold text-black">
           Schedule
         </p>
+        <p className="text-center my-8">
+          Check back later for the updated schedule!
+        </p>
       </div>
     </div>
   )
