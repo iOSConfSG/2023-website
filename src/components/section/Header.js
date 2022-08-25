@@ -22,13 +22,6 @@ const menuItems = [
     icon: UserCircleIcon,
   },
   {
-    id: "sponsors",
-    title: "Sponsors",
-    description: "iOS Conf SG 2022 Sponsors",
-    href: "/#sponsors",
-    icon: AnnotationIcon,
-  },
-  {
     id: "schedule",
     title: "Schedule",
     description: "iOS Conf SG 2022 Schedule",

@@ -90,7 +90,6 @@ export default function RootLayout() {
 
         {/* Gradient Feature Section */}
         <Speakers />
-        <Sponsors />
 
         {/* Stats section */}
         <Tickets />
