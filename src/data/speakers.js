@@ -20,6 +20,16 @@ const speakers = [
     "bio": "Daniel is the author of more than a dozen books including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena. He presents iOS, Functional Programming, SwiftUI, and Swift training and consults through his company Dim Sum Thinking. He has written apps for the iPhone and the iPad since the SDKs first appeared and has written programs for the Mac all the way back to System 7. When he's not coding or talking about coding for the Mac, the iPhone, and the iPad he's probably cooking, baking bread, or hanging out with friends."
   },
   {
+    "name": "Danijela Vrzan",
+    "company": "Deloitte Canada",
+    "imageUrl": "/images/speakers/danijela.jpg",
+    "companyUrl": "https://www2.deloitte.com/ca/en.html",
+    "twitter": "dvrzan",
+    "linkedin": "",
+    "shortBio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym.",
+    "bio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym. When not working out, she's playing video-games, cooking, and trying to keep up with Swift updates!"
+  },
+  {
     "name": "Antoine van der Lee",
     "company": "WeTransfer",
     "imageUrl": "/images/speakers/antoine.jpeg",
