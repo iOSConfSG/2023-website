@@ -31,6 +31,9 @@ export default function Faq () {
                   </React.Fragment>
                 ))}
               </dl>
+              <p className="my-12">
+                Do you have more questions? Send it to <a href="mailto:vina&#64;iosconf.sg">vina@iosconf.sg</a> and we will add it here.
+              </p>
             </div>
           </div>
         </div>

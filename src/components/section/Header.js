@@ -4,11 +4,13 @@ import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 
 import {
+  UserCircleIcon,
   AnnotationIcon,
   MenuIcon,
   XIcon,
-  InboxIcon,
   QuestionMarkCircleIcon,
+  ClockIcon,
+  UserGroupIcon
 } from '@heroicons/react/outline'
 
 const menuItems = [
@@ -17,7 +19,7 @@ const menuItems = [
     title: "Speakers",
     description: "iOS Conf SG 2022 Speakers",
     href: "/#speakers",
-    icon: InboxIcon,
+    icon: UserCircleIcon,
   },
   {
     id: "sponsors",
@@ -31,13 +33,20 @@ const menuItems = [
     title: "Schedule",
     description: "iOS Conf SG 2022 Schedule",
     href: "/#schedule",
-    icon: QuestionMarkCircleIcon,
+    icon: ClockIcon,
   },
   {
     id: "organisers",
     title: "Organisers",
     description: "iOS Conf SG 2022 Organising Team",
     href: "/organisers",
+    icon: UserGroupIcon,
+  },
+  {
+    id: "faq",
+    title: "FAQ",
+    description: "Frequently Asked Questions",
+    href: "/faq",
     icon: QuestionMarkCircleIcon,
   },
 ]
@@ -136,7 +145,7 @@ export default function Header () {
                           href={item.href}
                           className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
                         >
-                          <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
+                          <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-orange-500 to-amber-600 text-white">
                             <item.icon className="h-6 w-6" aria-hidden="true" />
                           </div>
                           <div className="ml-4 text-base font-medium text-gray-900">{item.title}</div>
