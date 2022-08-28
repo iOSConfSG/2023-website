@@ -34,7 +34,7 @@ const speakers = [
     "company": "WeTransfer",
     "imageUrl": "/images/speakers/antoine.jpeg",
     "companyUrl": "https://www.avanderlee.com/",
-    "twitter": "twanni",
+    "twitter": "twannl",
     "linkedin": "https://www.linkedin.com/in/ajvanderlee/",
     "shortBio": "A weekly blog about Swift, iOS and Xcode Tips and Tricks",
     "bio": "Developing iOS apps since 2010. Currently at WeTransfer, Amsterdam"
