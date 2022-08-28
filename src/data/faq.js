@@ -7,17 +7,17 @@ const faq = [
   {
     id: 2,
     question: "When and where will the conference be held?",
-    answer: "Friday, 13 January 2023 at Mochtar Riady Auditorium, Reedz Cafe @SMU. 81 Victoria St, Singapore 188065. The workshop will be held in a different venue that will be updated later.",
+    answer: "Friday, 13 January 2023 at Mochtar Riady Auditoriumm @SMU. 81 Victoria St, Singapore 188065. The workshop will be held in a different venue that will be updated later.",
   },
   {
     id: 3,
     question: "What are safety rules I need to do?",
-    answer: "We require each attendee to have that green tick in TraceTogether app. Prior to the event, it's also strongly recommended to take a self test",
+    answer: "Currently, we assumed that wearing masks are required for attendees while not consuming F&B.There are also Vaccination Differentiated Measure for those unvaccinated. Please scroll down for more details.",
   },
   {
     id: 4,
     question: "I am coming to Singapore as a traveller, what should I do?",
-    answer: "Travellers are required to use the TraceTogether app. For more info, please visit <a href=\"https://support.tracetogether.gov.sg/hc/en-sg/articles/900007673943-Are-travellers-required-to-use-TraceTogether-TT-during-their-stay-in-Singapore-\" target=\"_blank\" class=\"!text-orange\">here</a>.",
+    answer: "Please scroll down for more details.",
   },
   {
     id: 5,
@@ -39,6 +39,12 @@ const faq = [
       "As we have pre booked each ticket ahead, we cannot accept refund. You may choose to transfer your registration to a friend or colleague if you are unable to attend the event yourself.",
   },
   {
+    id: 10,
+    question: "Will there be a live streaming?",
+    answer:
+      "There won't be a live streaming. Some of the talks will be available at iOS Conf SG YouTube account on the later date.",
+  },
+  {
     id: 8,
     question: "Can I only attend half of the event?",
     answer: "You still have to pay the full amount. If you miss a few sessions, you may watch the session recordings later. However, we strongly encourage you to block your time to attend the entire conference and participate in all activities.<br/><br/>The workshop sessions will not be recorded.",
@@ -47,6 +53,11 @@ const faq = [
     id: 8,
     question: "How can I speak at iOS Conf SG 2023?",
     answer: "Currently, all talks have been finalized. We look forward for your talk proposal for 2024!",
+  },
+  {
+    id: 9,
+    question: "Why do you ask for my Covid-19 vaccination status?",
+    answer: "The organiser aim to keeping everyone safe. We need you to cooperate with the current national guideline. Check the section below.",
   },
 ]
 
