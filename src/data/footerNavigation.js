@@ -2,7 +2,7 @@ const footerNavigation = {
   moreLinks: [
     { name: 'Code of Conduct', href: '/coc' },
     { name: 'FAQ', href: '/faq' },
-    { name: 'Contact', href: 'mailto:subh&#64;iosconf.sg' },
+    { name: 'Contact', href: 'mailto:vina@iosconf.sg' },
   ],
   iosdevscout: [
     { name: 'Meetup', href: 'https://www.meetup.com/Singapore-iOS-Dev-Scout-Meetup/' },

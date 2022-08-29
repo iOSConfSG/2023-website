@@ -5,7 +5,6 @@ import { Popover, Transition } from '@headlessui/react'
 
 import {
   UserCircleIcon,
-  AnnotationIcon,
   MenuIcon,
   XIcon,
   QuestionMarkCircleIcon,
@@ -76,7 +75,7 @@ export default function Header () {
             {
               menuItems.map((item) => (
                 <a
-                  key={item.name}
+                  key={item.id}
                   href={item.href}
                   className="text-base font-medium text-gray-500 hover:text-gray-900">
                   {item.title}
@@ -134,7 +133,7 @@ export default function Header () {
                     {
                       menuItems.map((item) => (
                         <a
-                          key={item.name}
+                          key={item.id}
                           href={item.href}
                           className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
                         >
