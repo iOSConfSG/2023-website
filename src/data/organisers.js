@@ -1,5 +1,11 @@
 const organisers = [
     {
+      "name": "Vina Melody",
+      "imageUrl": "/images/organisers/vina.jpeg",
+      "twitter": "vinamelody",
+      "linkedin": "in/vinamelody",
+    },
+    {
       "name": "Subhransu Behera",
       "imageUrl": "/images/organisers/subh.jpg",
       "twitter": "subhransu",
@@ -10,12 +16,6 @@ const organisers = [
       "imageUrl": "/images/organisers/melvin.jpg",
       "twitter": "",
       "linkedin": "in/melvintansl",
-    },
-    {
-      "name": "Vina Melody",
-      "imageUrl": "/images/organisers/vina.jpeg",
-      "twitter": "vinamelody",
-      "linkedin": "in/vinamelody",
     },
     {
       "name": "Stefanie Seah",

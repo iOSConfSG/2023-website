@@ -10,24 +10,14 @@ const speakers = [
     "bio": "Paul is the author of Hacking with Swift, Pro Swift, Swift Design Patterns, Server-Side Swift, Hacking with macOS, Hacking with watchOS, Hacking with tvOS, Swift Coding Challenges, and more. Suffice it to say, he quite likes Swift. And coffee. (But mostly Swift.) (And coffee.)",
   },
   {
-    "name": "Daniel H Steinberg",
-    "company": "Dim Sum Thinking",
-    "imageUrl": "/images/speakers/daniel.jpg",
-    "companyUrl": "https://dimsumthinking.com",
-    "twitter": "dimsumthinking",
-    "linkedin": "",
-    "shortBio": "Daniel is the author of more than a dozen books, including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena.",
-    "bio": "Daniel is the author of more than a dozen books including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena. He presents iOS, Functional Programming, SwiftUI, and Swift training and consults through his company Dim Sum Thinking. He has written apps for the iPhone and the iPad since the SDKs first appeared and has written programs for the Mac all the way back to System 7. When he's not coding or talking about coding for the Mac, the iPhone, and the iPad he's probably cooking, baking bread, or hanging out with friends."
-  },
-  {
-    "name": "Danijela Vrzan",
-    "company": "Deloitte Canada",
-    "imageUrl": "/images/speakers/danijela.jpg",
-    "companyUrl": "https://www2.deloitte.com/ca/en.html",
-    "twitter": "dvrzan",
-    "linkedin": "",
-    "shortBio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym.",
-    "bio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym. When not working out, she's playing video-games, cooking, and trying to keep up with Swift updates!"
+    "name": "Donny Wals",
+    "company": "",
+    "imageUrl": "/images/speakers/donny.jpeg",
+    "companyUrl": "https://www.donnywals.com/",
+    "twitter": "donnywals",
+    "linkedin": "https://www.linkedin.com/in/donny-wals-33660014/?originalSubdomain=nl",
+    "shortBio": "Donny is a freelance iOS Engineer who loves learning and sharing knowledge.",
+    "bio": "Donny is a freelance iOS Engineer who loves learning and sharing knowledge. When he is not working on something iOS-related, you'll probably find him noodling around on his guitar. "
   },
   {
     "name": "Antoine van der Lee",
@@ -40,24 +30,14 @@ const speakers = [
     "bio": "Developing iOS apps since 2010. Currently at WeTransfer, Amsterdam"
   },
   {
-    "name": "Donny Wals",
-    "company": "",
-    "imageUrl": "/images/speakers/donny.jpeg",
-    "companyUrl": "https://www.donnywals.com/",
-    "twitter": "donnywals",
-    "linkedin": "https://www.linkedin.com/in/donny-wals-33660014/?originalSubdomain=nl",
-    "shortBio": "I'm a curious, passionate iOS Developer from The Netherlands who loves learning and sharing knowledge.",
-    "bio": "My name is Donny Wals. I am a developer from The Netherlands who enjoys sharing knowledge and learning more than anything else. This passion has led me to several local meetups, placed me in front of some classrooms to deliver awesome lectures, the \"Do iOS\" conference in Amsterdam and the \"Swift Island\" conference on the island of Texel in The Netherlands"
-  },
-  {
-    "name": "Jordi Bruin",
-    "company": "",
-    "imageUrl": "/images/speakers/jordi.jpeg",
-    "companyUrl": "https://goodsnooze.gumroad.com/",
-    "twitter": "jordibruin",
+    "name": "Danijela Vrzan",
+    "company": "Gamesys",
+    "imageUrl": "/images/speakers/danijela.jpg",
+    "companyUrl": "https://www2.deloitte.com/ca/en.html",
+    "twitter": "dvrzan",
     "linkedin": "",
-    "shortBio": "Apple Design Award Finalist",
-    "bio": "Builds things that make life easier and helping others do the same"
+    "shortBio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym.",
+    "bio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym. When not working out, she's playing video-games, cooking, and trying to keep up with Swift updates!"
   },
   {
     "name": "Adam Bell",
@@ -66,8 +46,18 @@ const speakers = [
     "companyUrl": "https://www.adambell.ca/",
     "twitter": "b3ll",
     "linkedin": "https://www.linkedin.com/in/donny-wals-33660014/?originalSubdomain=nl",
-    "shortBio": "I make synths, interactions, animations, and hack things 🏎 🇨🇦 #no #u",
-    "bio": "I build things, hack things, make music, and like to race cars."
+    "shortBio": "Adam is a software engineer specialising in audio, animations, interactions, and gestures, currently working at Netflix.",
+    "bio": "Adam is a software engineer specialising in audio, animations, interactions, and gestures, currently working at Netflix. He is the creator of a highly performant animation and gestural interaction library called Motion (https://github.com/b3ll/Motion). In his spare time, he enjoys racing cars, messing with synthesizers, listening to records, and dabbling with the internals of Apple products."
+  },
+  {
+    "name": "Daniel H Steinberg",
+    "company": "Dim Sum Thinking",
+    "imageUrl": "/images/speakers/daniel.jpg",
+    "companyUrl": "https://dimsumthinking.com",
+    "twitter": "dimsumthinking",
+    "linkedin": "",
+    "shortBio": "Daniel is the author of more than a dozen books, including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena.",
+    "bio": "Daniel is the author of more than a dozen books including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena. He presents iOS, Functional Programming, SwiftUI, and Swift training and consults through his company Dim Sum Thinking. He has written apps for the iPhone and the iPad since the SDKs first appeared and has written programs for the Mac all the way back to System 7. When he's not coding or talking about coding for the Mac, the iPhone, and the iPad he's probably cooking, baking bread, or hanging out with friends."
   },
 ]
 export default speakers

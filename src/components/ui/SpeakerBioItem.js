@@ -15,8 +15,8 @@ function SpeakerBioItem (props) {
         <>
           <img className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src={speaker.imageUrl} onClick={handleClick} />
           <div className="space-y-2">
-            <div className="flex-col justify-center text-white text-lg leading-6 font-medium space-y-1">
-              <h4 className="text-center">{speaker.name}</h4>
+            <div className="flex-col justify-center text-lg leading-6 font-medium space-y-1">
+              <h4 className="text-center text-gray-900">{speaker.name}</h4>
               <p className="text-orange-600 text-center">
                 <a href={speaker.companyUrl} target="_blank" rel="noopener noreferrer">{speaker.company}</a>
               </p>
@@ -37,7 +37,7 @@ function SpeakerBioItem (props) {
               </div>
               {
                 speaker.shortBio &&
-                <p className="text-sm text-center font-light">{speaker.shortBio}</p>
+                <p className="text-sm text-center text-gray-800 font-light">{speaker.shortBio}</p>
               }              
             </div>
           </div>

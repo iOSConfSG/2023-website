@@ -33,6 +33,8 @@ export default function RootLayout() {
         {/* Logo Cloud */}
         <LogoCloud />
 
+        <Speakers />
+
         {/* Alternating Feature Sections */}
         <div className="relative pt-16 pb-32 overflow-hidden">
           <div aria-hidden="true" className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100" />
@@ -44,7 +46,7 @@ export default function RootLayout() {
                     An iOS-packed workshop and conference
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">
-                    iOS Conf SG is the largest gathering of iOS / Apple developers in South East Asia.<br/><br/>We had great virtual conferences for the past 2 years and we are very excited to safely welcome every developers again here in Singapore!
+                    iOS Conf SG is the largest gathering of iOS and Apple developers in South East Asia.<br/><br/>We have had <strong>5</strong> fantastic in-person conferences and <strong>2</strong> awesome virtual conferences. <br/><br/>We can&apos;t wait to see all of you again in Singapore!
                   </p>
                 </div>
               </div>
@@ -62,7 +64,7 @@ export default function RootLayout() {
                       Support iOS Conf SG 2023!
                     </h2>
                     <p className="mt-4 text-lg text-gray-500">
-                      Your support plays important roles in making iOS Conf SG an exceptional event. Showcase your branding tastefully at our conference. Connect with passionate iOS devs who might use your products and services.
+                      Your support plays important roles in making iOS Conf SG an exceptional event. Showcase your branding in a refreshing way at our conference. Connect with passionate iOS devs from 35+ countries.
                     </p>
                     <div className="mt-6">
                       <a
@@ -87,9 +89,6 @@ export default function RootLayout() {
             </div>
           </div>
         </div>
-
-        {/* Gradient Feature Section */}
-        <Speakers />
 
         {/* Stats section */}
         <Tickets />

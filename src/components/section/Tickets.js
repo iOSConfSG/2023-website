@@ -21,7 +21,7 @@ export default function TicketSection () {
       <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
           <h2 className="text-sm font-semibold tracking-wide uppercase">
             <span className="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">
-              Valuable Metrics
+              Level up!
             </span>
           </h2>
           <p className="mt-3 text-3xl font-extrabold text-white">

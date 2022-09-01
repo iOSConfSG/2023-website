@@ -2,52 +2,52 @@ const faq = [
   {
     id: 1,
     question: "What is the focus of iOS Conf SG 2023?",
-    answer: "We are going back to be an in-person again! And that means our focus is all of you, iOS Engineers to learn something new and to raise your own bar.",
+    answer: "We are back for an in-person event again! That means our focus is all of you, iOS Engineers to learn something new, to raise your own bar and have tons of fun.",
   },
   {
     id: 2,
     question: "When and where will the conference be held?",
-    answer: "Friday, 13 January 2023 at Mochtar Riady Auditoriumm @SMU. 81 Victoria St, Singapore 188065. The workshop will be held in a different venue that will be updated later.",
+    answer: "Friday, 13 January 2023 at Mochtar Riady Auditorium @ SMU. 81 Victoria St, Singapore 188065. The workshop will be held in a different venue.and updated later",
   },
   {
     id: 3,
-    question: "What are safety rules I need to do?",
-    answer: "Currently, we assumed that wearing masks are required for attendees while not consuming F&B.There are also Vaccination Differentiated Measure for those unvaccinated. Please scroll down for more details.",
+    question: "What are the safety rules I need to do?",
+    answer: "Wearing masks are optional for fully vaccinated attendees. However, We encourage you to maintain a safe distance and use your mask when you are in a larger group. If you are unvaccinated, please refer to the guidelines below.",
   },
   {
     id: 4,
     question: "I am coming to Singapore as a traveller, what should I do?",
-    answer: "Please scroll down for more details.",
+    answer: "Please refer to the guidelines below.",
   },
   {
     id: 5,
     question: "What are the ticket types available?",
     answer:
-      "Bundle ticket holders will have access to all the sessions of workshop, conference and all activities that are part of the event.<br/><br/>Conference ONLY ticket holders will have access to all conference session and a special sponsor workshop. Conference ONLY participants won't have access to workshop.<br/><br/>You will also receive one set of the conference swags.",
+      "Bundle ticket holders will have access to both the workshop and conference days, including all sessions and activities.<br/><br/>Conference ONLY ticket holders will have access to the sessions on the conference day. However, conference ONLY participants won't have access to the workshop.<br/><br/>You will also receive one set of the conference swag.",
   },
   {
     id: 6,
     question:
       "Will there be food?",
     answer:
-      "Breakfast, lunch and snacks will be served on the conference day. There will be snacks on the workshop day. All food served is Halal. Vegetarian options will be available in limited quantity.",
+      "Breakfast, lunch and snacks will be served on the conference day. There will be snacks on the workshop day. All food served is Halal. Vegetarian options will be available in limited quantities.",
   },
   {
     id: 7,
     question: "Will I get a refund if I can not attend the event?",
     answer:
-      "As we have pre booked each ticket ahead, we cannot accept refund. You may choose to transfer your registration to a friend or colleague if you are unable to attend the event yourself.",
+      "As we have pre-booked for the logistics, we cannot accept refund requests. However, you may choose to transfer your registration to a friend or colleague if you cannot attend the event.",
   },
   {
     id: 10,
     question: "Will there be a live streaming?",
     answer:
-      "There won't be a live streaming. Some of the talks will be available at iOS Conf SG YouTube account on the later date.",
+      "There won't be live streaming. However, some of the talks will be available on the iOS Conf SG YouTube account later. We will not record the workshop.",
   },
   {
     id: 8,
     question: "Can I only attend half of the event?",
-    answer: "You still have to pay the full amount. If you miss a few sessions, you may watch the session recordings later. However, we strongly encourage you to block your time to attend the entire conference and participate in all activities.<br/><br/>The workshop sessions will not be recorded.",
+    answer: "You still have to pay the full amount. You may watch the session recordings later if you miss a few sessions. However, we strongly encourage you to block your time to attend the entire conference and participate in all activities.",
   },
   {
     id: 8,
@@ -57,7 +57,7 @@ const faq = [
   {
     id: 9,
     question: "Why do you ask for my Covid-19 vaccination status?",
-    answer: "The organiser aim to keeping everyone safe. We need you to cooperate with the current national guideline. Check the section below.",
+    answer: "We aim to keep everyone safe. Therefore, we seek your understanding and cooperation in conducting a smooth event. Please refer to the guidelines below.",
   },
 ]
 

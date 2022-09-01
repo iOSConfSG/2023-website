@@ -15,17 +15,16 @@ export default function Organisers () {
             We, a team of developers like you, love iOS and are passionate about building apps in Swift. We are inspired and motivated by the technology and ecosystem Apple provides for developers. <br/> <br/> We believe that if we bring the power of these technologies to every iOS developer we know, we can contribute to building more innovative and better apps. So we started iOS Conf SG in 2015. Since then, the community has grown to make iOS Conf SG <strong>the largest iOS developer conference in South East Asia</strong>.
             </p> <br/>
 
-            <p><strong>iOS Conf SG</strong> is recognised as <a href="https://www.hackingwithswift.com/awards" target="_blank" rel="noreferrer">a highly commended conference</a> by the Swift Community Awards. Participants find our event most interesting, insightful, or beneficial for their careers.</p>            
-            <br/>
             <p>You may contact us:</p>
-              <ul>
+            <ul>
                 <li>
-                  Subhransu Behera : +65 8388 7595 | {" "}
-                  <a href="mailto:subh&#64;iosconf.sg">subh@iosconf.sg</a>
+                  Vina Melody, <a href="mailto:vina&#64;iosconf.sg">vina@iosconf.sg</a>
                 </li>
                 <li>
-                  Melvin Tan : +65 9337 9909 | {" "}
-                  <a href="mailto:melvin&#64;iosconf.sg">melvin@iosconf.sg</a>
+                  Subhransu Behera, <a href="mailto:subh&#64;iosconf.sg">subh@iosconf.sg</a>
+                </li>
+                <li>
+                  Melvin Tan, <a href="mailto:melvin&#64;iosconf.sg">melvin@iosconf.sg</a>
                 </li>
               </ul>
             <br />

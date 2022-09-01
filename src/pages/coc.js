@@ -30,13 +30,13 @@ export default function CodeOfConduct () {
               <li>Showing empathy towards other community members</li>
             </ul>
             <p>
-              This “Don’t be a jerk” policy is a shortened, more casual version of the longer Code of Conduct policy.&nbsp;
-              <a
-                href="http://meta.wikimedia.org/wiki/Don%27t_be_a_dick"
+              This policy is a shortened, more casual version of the longer Code of Conduct policy.&nbsp;
+              Read full version from <a
+                href="https://www.contributor-covenant.org/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Read full version
+                 contributor-covenant.org
               </a>
               .
             </p>
