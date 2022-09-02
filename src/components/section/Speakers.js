@@ -18,7 +18,7 @@ export default function SpeakersSection () {
     <div id="speakers" className="bg-gray-100">
       <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
         <h2 className="text-4xl text-center font-bold text-black tracking-tight">Speakers</h2>
-        <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
+        <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
           {SpeakersData.map((speaker, index) => (
             <div key={index}>
               <div className="mt-6">
