@@ -15,7 +15,7 @@ const footerNavigation = {
     { name: 'iOS Conf SG 2020', href: 'https://2020.iosconf.sg/' },
   ],
   pastEventsTwo: [
-    { name: 'iOS Conf SG 2018', href: 'https://2018.iosconf.sg/' },
+    { name: 'iOS Conf SG 2019', href: 'https://2019.iosconf.sg/' },
     { name: 'iOS Conf SG 2017', href: 'https://2017.iosconf.sg/' },
     { name: 'iOS Conf SG 2016', href: 'http://2016.iosconf.sg/' },
   ],
