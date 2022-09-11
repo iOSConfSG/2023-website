@@ -11,13 +11,13 @@ const speakers = [
   },
   {
     "name": "Donny Wals",
-    "company": "",
+    "company": "Freelance iOS Dev",
     "imageUrl": "/images/speakers/donny.jpeg",
     "companyUrl": "https://www.donnywals.com/",
     "twitter": "donnywals",
     "linkedin": "https://www.linkedin.com/in/donny-wals-33660014/?originalSubdomain=nl",
-    "shortBio": "Donny is a freelance iOS Engineer who loves learning and sharing knowledge.",
-    "bio": "Donny is a freelance iOS Engineer who loves learning and sharing knowledge. When he is not working on something iOS-related, you'll probably find him noodling around on his guitar. "
+    "shortBio": "Donny is a freelance iOS engineer and author who loves learning and sharing knowledge.",
+    "bio": "Donny is a freelance iOS engineer who loves learning and sharing knowledge. When he is not working on something iOS-related, you'll probably find him noodling around on his guitar. "
   },
   {
     "name": "Antoine van der Lee",
@@ -26,8 +26,8 @@ const speakers = [
     "companyUrl": "https://www.avanderlee.com/",
     "twitter": "twannl",
     "linkedin": "https://www.linkedin.com/in/ajvanderlee/",
-    "shortBio": "A weekly blog about Swift, iOS and Xcode Tips and Tricks",
-    "bio": "Developing iOS apps since 2010. Currently at WeTransfer, Amsterdam"
+    "shortBio": "As a Staff iOS Engineer at WeTransfer, Antoine’s work is focused on code architecture and team processes.",
+    "bio": "As a Staff iOS Engineer at WeTransfer, Antoine’s work is focused on code architecture and team processes."
   },
   {
     "name": "Danijela Vrzan",
@@ -41,7 +41,7 @@ const speakers = [
   },
   {
     "name": "Adam Bell",
-    "company": "",
+    "company": "Netflix",
     "imageUrl": "/images/speakers/bell.jpeg",
     "companyUrl": "https://www.adambell.ca/",
     "twitter": "b3ll",
