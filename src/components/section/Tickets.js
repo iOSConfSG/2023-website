@@ -27,7 +27,7 @@ export default function TicketSection () {
           <p className="mt-3 text-3xl font-extrabold text-white">
             Tickets
           </p>
-          <tito-widget event="iosconfsg/2021"></tito-widget>              
+          <tito-widget event="ios-conf-sg/2023"></tito-widget>              
         </div>
       </div>
     </div>

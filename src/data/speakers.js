@@ -43,11 +43,21 @@ const speakers = [
     "name": "Adam Bell",
     "company": "Netflix",
     "imageUrl": "/images/speakers/bell.jpeg",
-    "companyUrl": "https://www.adambell.ca/",
+    "companyUrl": "https://www.netflix.com/",
     "twitter": "b3ll",
     "linkedin": "https://www.linkedin.com/in/donny-wals-33660014/?originalSubdomain=nl",
     "shortBio": "Adam is a software engineer specialising in audio, animations, interactions, and gestures, currently working at Netflix.",
     "bio": "Adam is a software engineer specialising in audio, animations, interactions, and gestures, currently working at Netflix. He is the creator of a highly performant animation and gestural interaction library called Motion (https://github.com/b3ll/Motion). In his spare time, he enjoys racing cars, messing with synthesizers, listening to records, and dabbling with the internals of Apple products."
+  },
+  {
+    "name": "Jordi Bruin",
+    "company": "",
+    "imageUrl": "/images/speakers/jordi.jpeg",
+    "companyUrl": "https://goodsnooze.gumroad.com/",
+    "twitter": "jordibruin",
+    "linkedin": "",
+    "shortBio": "Apple Design Award Finalist",
+    "bio": "Builds things that make life easier and helping others do the same"
   },
   {
     "name": "Daniel H Steinberg",
