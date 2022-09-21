@@ -150,7 +150,7 @@ export default function Header () {
               <div className="py-6 px-5">
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="#tickets"
                     className="w-full flex items-center justify-center bg-gradient-to-r from-amber-500 to-orange-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-indigo-700"
                   >
                     Get My Ticket
