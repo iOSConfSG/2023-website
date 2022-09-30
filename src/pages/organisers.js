@@ -31,8 +31,8 @@ export default function Organisers () {
             <p><strong>IOS CONF SG PTE. LTD.</strong> is the registered entity under which we organise the event.</p>
           </div>
         </div>
-        <section id="team" className="w-full text-center py-12 bg-gradient-to-r from-purple-800 to-indigo-700">
-          <h2 className="inline-block p-3 mb-4 text-3xl text-white">
+        <section id="team" className="w-full text-center py-12 bg-gradient-to-r from-stone-100 to-slate-200">
+          <h2 className="inline-block p-3 mb-4 text-3xl text-orange-500">
             Organising Team & Volunteers
           </h2>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 my-6">
