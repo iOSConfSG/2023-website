@@ -50,6 +50,16 @@ const speakers = [
     "bio": "Adam is a software engineer specialising in audio, animations, interactions, and gestures, currently working at Netflix. He is the creator of a highly performant animation and gestural interaction library called Motion (https://github.com/b3ll/Motion). In his spare time, he enjoys racing cars, messing with synthesizers, listening to records, and dabbling with the internals of Apple products."
   },
   {
+    "name": "Daniel H Steinberg",
+    "company": "Dim Sum Thinking",
+    "imageUrl": "/images/speakers/daniel.jpg",
+    "companyUrl": "https://dimsumthinking.com",
+    "twitter": "dimsumthinking",
+    "linkedin": "",
+    "shortBio": "Daniel is the author of more than a dozen books, including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena.",
+    "bio": "Daniel is the author of more than a dozen books including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena. He presents iOS, Functional Programming, SwiftUI, and Swift training and consults through his company Dim Sum Thinking. He has written apps for the iPhone and the iPad since the SDKs first appeared and has written programs for the Mac all the way back to System 7. When he's not coding or talking about coding for the Mac, the iPhone, and the iPad he's probably cooking, baking bread, or hanging out with friends."
+  },
+  {
     "name": "Jordi Bruin",
     "company": "",
     "imageUrl": "/images/speakers/jordi.jpeg",
@@ -60,14 +70,14 @@ const speakers = [
     "bio": "Builds things that make life easier and helping others do the same"
   },
   {
-    "name": "Daniel H Steinberg",
-    "company": "Dim Sum Thinking",
-    "imageUrl": "/images/speakers/daniel.jpg",
-    "companyUrl": "https://dimsumthinking.com",
-    "twitter": "dimsumthinking",
+    "name": "More to be announced",
+    "company": "",
+    "imageUrl": "/images/speakers/organiser.png",
+    "companyUrl": "",
+    "twitter": "iosconfsg",
     "linkedin": "",
-    "shortBio": "Daniel is the author of more than a dozen books, including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena.",
-    "bio": "Daniel is the author of more than a dozen books including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena. He presents iOS, Functional Programming, SwiftUI, and Swift training and consults through his company Dim Sum Thinking. He has written apps for the iPhone and the iPad since the SDKs first appeared and has written programs for the Mac all the way back to System 7. When he's not coding or talking about coding for the Mac, the iPhone, and the iPad he's probably cooking, baking bread, or hanging out with friends."
+    "shortBio": "We'll update this list soon, stay tuned!",
+    "bio": "Stay tuned"
   },
 ]
 export default speakers
