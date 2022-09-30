@@ -9,7 +9,8 @@ import {
   XIcon,
   QuestionMarkCircleIcon,
   ClockIcon,
-  UserGroupIcon
+  UserGroupIcon,
+  HeartIcon
 } from '@heroicons/react/outline'
 
 const menuItems = [
@@ -26,6 +27,13 @@ const menuItems = [
     description: "iOS Conf SG 2022 Schedule",
     href: "/#schedule",
     icon: ClockIcon,
+  },
+  {
+    id: "sponsorship",
+    title: "Sponsorship",
+    description: "iOS Conf SG 2022 Sponsorship",
+    href: "/#sponsorship",
+    icon: HeartIcon,
   },
   {
     id: "organisers",

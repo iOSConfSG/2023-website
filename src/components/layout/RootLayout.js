@@ -55,7 +55,7 @@ export default function RootLayout() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div id="sponsorship">
             <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
               <div className="px-4 max-w-xl mx-auto sm:px-6">
                 <div>
