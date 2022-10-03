@@ -13,7 +13,7 @@ export default function Hero () {
               layout="fill"
               alt="iOS Conference Singapore"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-indigo-500 mix-blend-multiply" />
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-300 to-indigo-400 mix-blend-multiply" />
           </div>
           <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
             <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
