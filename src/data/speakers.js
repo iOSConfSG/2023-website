@@ -70,6 +70,16 @@ const speakers = [
     "bio": "Builds things that make life easier and helping others do the same"
   },
   {
+    "name": "Masahiko",
+    "company": "",
+    "imageUrl": "/images/speakers/masahiko-funaki.jpg",
+    "companyUrl": "https://circleci.com/",
+    "twitter": "mfunaki",
+    "linkedin": "",
+    "shortBio": "Principal, Developer Advocate at CircleCI",
+    "bio": "Masahiko is Principal, Developer Advocate in JAPAC at CircleCI, a Continuous Integration and Delivery platform used by the world's best engineering teams. Masahiko is passionate about helping organizations of all sizes achieve digital innovation and has developed a deep understanding of both the business and technology sides through hands-on experience as an engineer and as a leader in global enterprises like Microsoft and SAP."
+  },
+  {
     "name": "More to be announced",
     "company": "",
     "imageUrl": "/images/speakers/organiser.png",
