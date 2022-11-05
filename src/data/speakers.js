@@ -31,9 +31,9 @@ const speakers = [
   },
   {
     "name": "Danijela Vrzan",
-    "company": "Gamesys",
+    "company": "Bally's Interactive",
     "imageUrl": "/images/speakers/danijela.jpg",
-    "companyUrl": "https://www2.deloitte.com/ca/en.html",
+    "companyUrl": "https://www.ballys.com/about/ballys-interactive-na/default.aspx",
     "twitter": "dvrzan",
     "linkedin": "",
     "shortBio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym.",
