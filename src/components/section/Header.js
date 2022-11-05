@@ -26,7 +26,7 @@ const menuItems = [
     id: "schedule",
     title: "Schedule",
     description: "iOS Conf SG 2022 Schedule",
-    href: "/#schedule",
+    href: "/schedule",
     icon: ClockIcon,
   },
   {
