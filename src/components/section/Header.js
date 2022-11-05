@@ -10,7 +10,8 @@ import {
   QuestionMarkCircleIcon,
   ClockIcon,
   UserGroupIcon,
-  HeartIcon
+  HeartIcon,
+  LocationMarkerIcon
 } from '@heroicons/react/outline'
 
 const menuItems = [
@@ -34,6 +35,13 @@ const menuItems = [
     description: "iOS Conf SG 2022 Sponsorship",
     href: "/#sponsorship",
     icon: HeartIcon,
+  },
+  {
+    id: "venue",
+    title: "Venue",
+    description: "iOS Conf SG 2022 Venue",
+    href: "/#venue",
+    icon: LocationMarkerIcon,
   },
   {
     id: "organisers",
