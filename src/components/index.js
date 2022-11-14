@@ -11,7 +11,9 @@ export { default as Footer } from "./section/Footer"
 export { default as Schedule } from "./section/Schedule"
 export { default as Speakers } from "./section/Speakers"
 export { default as Sponsors } from "./section/Sponsors"
+export { default as Sponsorship } from "./section/Sponsorship"
 export { default as Tickets } from "./section/Tickets"
+export { default as Venue } from "./section/Venue"
 
 // UI
 

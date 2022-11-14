@@ -7,7 +7,7 @@ const faq = [
   {
     id: 2,
     question: "When and where will the conference be held?",
-    answer: "Friday, 13 January 2023 at Mochtar Riady Auditorium @ SMU. 81 Victoria St, Singapore 188065. The workshop will be held in a different venue.and updated later",
+    answer: "The conference starts on Thursday, 12 January 2023, 2-6pm (registration starts at 1pm) and Friday, 13 January 2023, 9am-6pm at Shaw Foundation Alumni House, 11 Kent Ridge Drive, Singapore 119244. The workshop will be held in the same venue",
   },
   {
     id: 3,
