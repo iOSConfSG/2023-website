@@ -10,6 +10,8 @@ export default function Hero () {
             <Image
               className="h-full w-full object-cover"
               src="/images/iosconf2020.jpeg"
+              width={1216}
+              height={546}
               layout="fill"
               alt="iOS Conference Singapore"
             />

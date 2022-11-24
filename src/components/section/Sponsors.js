@@ -19,6 +19,8 @@ export default function SponsorSection () {
                       layout="fill"
                       objectFit="contain"
                       alt={s.name}
+                      width={256}
+                      height={96}
                     />
                   </a>
                   </div>
@@ -40,6 +42,8 @@ export default function SponsorSection () {
                       layout="fill"
                       objectFit="contain"
                       alt={s.name}
+                      width={256}
+                      height={144}
                     />
                   </a>
                   </div>

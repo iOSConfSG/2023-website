@@ -22,14 +22,14 @@ function SpeakerBioItem (props) {
               </p>
               <div className="flex justify-center">
               {hasTwitter &&
-                <Link href={`https://twitter.com/${speaker.twitter}`} passHref>
+                <Link href={`https://twitter.com/${speaker.twitter}`} passHref legacyBehavior>
                   <a target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon size="1x" icon={faTwitter} />
                   </a>
                 </Link>
               }
               {hasLinkedIn &&
-                <Link className="ml-1" href={speaker.linkedin} passHref>
+                <Link className="ml-1" href={speaker.linkedin} passHref legacyBehavior>
                   <a target="_blank" rel="noopener noreferrer">
                     &nbsp;<FontAwesomeIcon size="1x" icon={faLinkedin} />
                   </a>
