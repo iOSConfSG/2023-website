@@ -74,7 +74,7 @@ const speakers = [
     "company": "Skroutz",
     "imageUrl": "/images/speakers/eleni.jpg",
     "companyUrl": "https://www.skroutz.gr",
-    "twitter": "dimsumthinking",
+    "twitter": "elenipapanikolo",
     "linkedin": "",
     "shortBio": "Eleni works at Skroutz, the biggest e-commerce platform in Greece and is part of the core mobile team focusing primarily on infrastructure, architecture and testing.",
     "bio": "Eleni is an iOS Developer with many years of experience working on various iOS Apps. She is currently working at Skroutz, the biggest e-commerce platform in Greece and she is part of the core mobile team focusing primarily on infrastructure, architecture and testing. She is the author of several articles in Medium and when she is not working she enjoys skiing and traveling."
