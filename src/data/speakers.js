@@ -68,10 +68,20 @@ const speakers = [
     "linkedin": "https://www.linkedin.com/in/donny-wals-33660014/?originalSubdomain=nl",
     "shortBio": "Adam is a software engineer specialising in audio, animations, interactions, and gestures, currently working at Netflix.",
     "bio": "Adam is a software engineer specialising in audio, animations, interactions, and gestures, currently working at Netflix. He is the creator of a highly performant animation and gestural interaction library called Motion (https://github.com/b3ll/Motion). In his spare time, he enjoys racing cars, messing with synthesizers, listening to records, and dabbling with the internals of Apple products."
+  },
+  {
+    "name": "Eleni Papanikolopoulou",
+    "company": "Skroutz",
+    "imageUrl": "/images/speakers/eleni.jpg",
+    "companyUrl": "https://www.skroutz.gr",
+    "twitter": "dimsumthinking",
+    "linkedin": "",
+    "shortBio": "Eleni works at Skroutz, the biggest e-commerce platform in Greece and is part of the core mobile team focusing primarily on infrastructure, architecture and testing.",
+    "bio": "Eleni is an iOS Developer with many years of experience working on various iOS Apps. She is currently working at Skroutz, the biggest e-commerce platform in Greece and she is part of the core mobile team focusing primarily on infrastructure, architecture and testing. She is the author of several articles in Medium and when she is not working she enjoys skiing and traveling."
   },  
   {
-    "name": "Masahiko",
-    "company": "",
+    "name": "Masahiko Funaki",
+    "company": "CircleCI",
     "imageUrl": "/images/speakers/masahiko-funaki.jpg",
     "companyUrl": "https://circleci.com/",
     "twitter": "mfunaki",
@@ -88,7 +98,7 @@ const speakers = [
     "linkedin": "",
     "shortBio": "Apple Design Award Finalist",
     "bio": "Builds things that make life easier and helping others do the same"
-  },
+  },  
   {
     "name": "Vincent Pradeilles",
     "company": "PhotoRoom",
@@ -108,7 +118,7 @@ const speakers = [
     "linkedin": "https://www.linkedin.com/in/priyal-porwal",
     "shortBio": "Priyal loves to learn and share knowledge with the community. She is passionate about accessibility, application security, testability and animations.",
     "bio": "Priyal loves to learn and share knowledge with the community. She is passionate about accessibility, application security, testability and animations. You can catch her traveling, watching movies or enjoying cooking when she is not coding."
-  },
+  },  
   {
     "name": "Daniel H Steinberg",
     "company": "Dim Sum Thinking",
