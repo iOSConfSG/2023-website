@@ -1,45 +1,38 @@
 import React, { useState } from "react"
+import { Transition } from "@headlessui/react"
 import { DateTime } from 'luxon'
 
-import { ScheduleData } from '@/data'
-import { Tabs, ScheduleTable } from '@/components'
+import { ScheduleData, SpeakersData } from '@/data'
+import { Tabs, ScheduleTable, SpeakerBioModal } from '@/components'
 
 function formatDate(stringDate, timezone) {
   if (timezone) {
-    const rezoned = DateTime.fromISO(stringDate, { zone: timezone })
-    return rezoned.toLocaleString(DateTime.DATETIME_MED)
+    const rezoned = DateTime.fromISO(stringDate, { zone: timezone }).setLocale('sg')
+    return rezoned.toFormat('hh:mm')
   } else {
-    const dt = DateTime.fromISO(stringDate, { zone: localTimezone })
-    return dt.toLocaleString(DateTime.DATETIME_MED)
+    const dt = DateTime.fromISO(stringDate, { zone: localTimezone }).setLocale('sg')
+    return dt.toFormat('hh:mm')
   }
 }
 const localTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone
 const SG_TIMEZONE = 'Asia/Singapore'
 
-const Schedule17 = ScheduleData.filter(event => event.activity === "iosconfsg22.workshop1")
-const Schedule18 = ScheduleData.filter(event => event.activity === "iosconfsg22.workshop2")
-const Conference20 = ScheduleData.filter(event => event.activity === "iosconfsg22.day1")
-const Conference21 = ScheduleData.filter(event => event.activity === "iosconfsg22.day2")
-const sgSchedule17 = rezoneSchedule(Schedule17, SG_TIMEZONE)
-const sgSchedule18 = rezoneSchedule(Schedule18, SG_TIMEZONE)
-const sgSchedule20 = rezoneSchedule(Conference20, SG_TIMEZONE)
-const sgSchedule21 = rezoneSchedule(Conference21, SG_TIMEZONE)
+const Conference1 = ScheduleData.filter(event => event.activity === "iosconfsg23.day1")
+const Conference2 = ScheduleData.filter(event => event.activity === "iosconfsg23.day2")
+const sgConference1 = rezoneSchedule(Conference1, SG_TIMEZONE)
+const sgConference2 = rezoneSchedule(Conference2, SG_TIMEZONE)
 
 const schedule = {
   others: {
-    iosconfsg21: {
-      day1: rezoneSchedule(Conference20, localTimezone),
-      day2: rezoneSchedule(Conference21, localTimezone),
-      workshop1: rezoneSchedule(Schedule17, localTimezone),
-      workshop2: rezoneSchedule(Schedule18, localTimezone)
+    iosconfsg: {
+      day1: rezoneSchedule(Conference1, localTimezone),
+      day2: rezoneSchedule(Conference2, localTimezone),
     },
   },
   sg: {
-    iosconfsg21: {
-      day1: sgSchedule20,
-      day2: sgSchedule21,
-      workshop1: sgSchedule17,
-      workshop2: sgSchedule18
+    iosconfsg: {
+      day1: sgConference1,
+      day2: sgConference2,
     },
   },
 }
@@ -49,7 +42,6 @@ function rezoneSchedule (schedule, timezone) {
     return {
       ...item,
       start_at: formatDate(item.start_at, timezone),
-      end_at: formatDate(item.end_at, timezone),
     }
   })
   return rezoned
@@ -57,22 +49,39 @@ function rezoneSchedule (schedule, timezone) {
 
 function selectScheduleForTab (currentTab, timezone) {
   const location = timezone === SG_TIMEZONE ? 'sg' : 'others'
-  return schedule[location].iosconfsg21[currentTab]
+  return schedule[location].iosconfsg[currentTab]
 }
 
   
 export default function ScheduleSection () {
+  const [showBio, setShowBio] = useState(false)
+  const [selectedSpeaker, setSelectedSpeaker] = useState(null)
+
+  const handleShowSpeaker = (name) => {
+    const person = SpeakersData.filter(function (speaker) {
+      return speaker.name === name
+    })
+    if (person && person.length > 0) {
+      setSelectedSpeaker(person[0])
+      setShowBio(true)
+    }
+  }
+  const handleCloseBio = () => setShowBio(false)
+
   return (
     <div id="schedule" className="bg-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <ScheduleTabs />
+        <ScheduleTabs showSpeakerBioHandler={handleShowSpeaker} />
+        <Transition show={showBio} appear={true} enter="ease-out duration-300" enterFrom="opacity-0" enterTo="opacity-100" leave="ease-in duration-200" leaveFrom="opacity-100" leaveTo="opacity-0">
+          <SpeakerBioModal speaker={selectedSpeaker} handleClose={handleCloseBio} />
+        </Transition>
       </div>
     </div>
   )
 }
 
 function ScheduleTabs (props) {
-  const [currentTab, setCurrentTab] = useState('workshop')
+  const [currentTab, setCurrentTab] = useState('day1')
 
   const [currentTimezone, setCurrentTimezone] = useState(localTimezone)
   const localSchedule = selectScheduleForTab(currentTab, currentTimezone)
@@ -92,10 +101,8 @@ function ScheduleTabs (props) {
   return (
     <>
       <Tabs defaultSelected={'day1'} currentTab={selectedTab}>
-        <Tabs.Tab labelKey='workshop1'>Workshop - Day 1</Tabs.Tab>
-        <Tabs.Tab labelKey='workshop2'>Workshop - Day 2</Tabs.Tab>
-        <Tabs.Tab labelKey='day1'>Conference - Day 1</Tabs.Tab>
-        <Tabs.Tab labelKey='day2'>Conference - Day 2</Tabs.Tab>
+        <Tabs.Tab labelKey='day1'>12 January</Tabs.Tab>
+        <Tabs.Tab labelKey='day2'>13 January</Tabs.Tab>
       </Tabs>
       <p className="text-sm mx-4 mx-0 my-4">
         Times below are shown in your local time zone <strong>{localTimezone}</strong>.

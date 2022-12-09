@@ -7,7 +7,6 @@ import {
   Speakers,
   Sponsors,
   Tickets,
-  Schedule,
   Venue,
   Sponsorship
 } from "@/components"
@@ -59,7 +58,6 @@ export default function RootLayout() {
           <Sponsorship />
         </div>
         <Tickets />
-        <Schedule />
         <Venue />
       </main>
       <Footer />
