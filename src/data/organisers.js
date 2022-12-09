@@ -16,6 +16,12 @@ const organisers = [
       "imageUrl": "/images/organisers/melvin.jpg",
       "twitter": "",
       "linkedin": "in/melvintansl",
+    },    
+    {
+      "name": "Janina Kutyn",
+      "imageUrl": "/images/organisers/janina.jpeg",
+      "twitter": "janinakutyn",
+      "linkedin": "",
     },
     {
       "name": "Stefanie Seah",
@@ -24,16 +30,16 @@ const organisers = [
       "linkedin": "",
     },
     {
-      "name": "Kale Toh",
-      "imageUrl": "/images/organisers/kale.jpeg",
-      "twitter": "",
-      "linkedin": "in/kaletoh",
-    },
-    {
       "name": "Perwyl Liu",
       "imageUrl": "/images/organisers/perwyl.jpeg",
       "twitter": "",
       "linkedin": "/in/perwyl-liu-b1283274",
+    },
+    {
+      "name": "Kale Toh",
+      "imageUrl": "/images/organisers/kale.jpeg",
+      "twitter": "",
+      "linkedin": "in/kaletoh",
     },
     {
       "name": "Tim Shim",

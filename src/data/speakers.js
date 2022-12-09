@@ -50,6 +50,16 @@ const speakers = [
     "bio": "As a Staff iOS Engineer at WeTransfer, Antoine’s work is focused on code architecture and team processes."
   },
   {
+    "name": "Erin Weigel",
+    "company": "Erin Does Things",
+    "imageUrl": "/images/speakers/erin.jpeg",
+    "companyUrl": "http://www.erindoesthings.com/",
+    "twitter": "endesignonline",
+    "linkedin": "https://www.linkedin.com/in/erindoesthings",
+    "shortBio": "Erin delivers impactful design, user-centric products and tells stories about how she does it. She's got lots of experience testing designs in her previous role as Principal Designer at Booking.com.",
+    "bio": "Erin delivers impactful design, user-centric products and tells stories about how she does it. Her career started in customer service working retail and waiting tables. This experience gave her a service mindset, which guides her design approach. She's got lots of experience testing designs in her previous role as Principal Designer at Booking.com, where she worked for 9 years. She also dabbles in product management, engineering, and people management. Previously her specialty was data-informed design and experimentation. Now she focuses on design systems, operations, and product accessibility. She's currently writing a book for Rosenfeld Media called 'Design for Impact,' which is scheduled to publish late 2023."
+  },
+  {
     "name": "Betty Godier",
     "company": "VanMoof",
     "imageUrl": "/images/speakers/betty.png",
@@ -68,17 +78,7 @@ const speakers = [
     "linkedin": "https://www.linkedin.com/in/donny-wals-33660014/?originalSubdomain=nl",
     "shortBio": "Adam is a software engineer specialising in audio, animations, interactions, and gestures, currently working at Netflix.",
     "bio": "Adam is a software engineer specialising in audio, animations, interactions, and gestures, currently working at Netflix. He is the creator of a highly performant animation and gestural interaction library called Motion (https://github.com/b3ll/Motion). In his spare time, he enjoys racing cars, messing with synthesizers, listening to records, and dabbling with the internals of Apple products."
-  },
-  {
-    "name": "Eleni Papanikolopoulou",
-    "company": "Skroutz",
-    "imageUrl": "/images/speakers/eleni.jpg",
-    "companyUrl": "https://www.skroutz.gr",
-    "twitter": "elenipapanikolo",
-    "linkedin": "",
-    "shortBio": "Eleni works at Skroutz, the biggest e-commerce platform in Greece and is part of the core mobile team focusing primarily on infrastructure, architecture and testing.",
-    "bio": "Eleni is an iOS Developer with many years of experience working on various iOS Apps. She is currently working at Skroutz, the biggest e-commerce platform in Greece and she is part of the core mobile team focusing primarily on infrastructure, architecture and testing. She is the author of several articles in Medium and when she is not working she enjoys skiing and traveling."
-  },  
+  },   
   {
     "name": "Masahiko Funaki",
     "company": "CircleCI",
@@ -90,6 +90,16 @@ const speakers = [
     "bio": "Masahiko is Principal, Developer Advocate in JAPAC at CircleCI, a Continuous Integration and Delivery platform used by the world's best engineering teams. Masahiko is passionate about helping organizations of all sizes achieve digital innovation and has developed a deep understanding of both the business and technology sides through hands-on experience as an engineer and as a leader in global enterprises like Microsoft and SAP."
   },
   {
+    "name": "Eleni Papanikolopoulou",
+    "company": "Skroutz",
+    "imageUrl": "/images/speakers/eleni.jpg",
+    "companyUrl": "https://www.skroutz.gr",
+    "twitter": "elenipapanikolo",
+    "linkedin": "",
+    "shortBio": "Eleni works at Skroutz, the biggest e-commerce platform in Greece and is part of the core mobile team focusing primarily on infrastructure, architecture and testing.",
+    "bio": "Eleni is an iOS Developer with many years of experience working on various iOS Apps. She is currently working at Skroutz, the biggest e-commerce platform in Greece and she is part of the core mobile team focusing primarily on infrastructure, architecture and testing. She is the author of several articles in Medium and when she is not working she enjoys skiing and traveling."
+  }, 
+  {
     "name": "Jordi Bruin",
     "company": "",
     "imageUrl": "/images/speakers/jordi.jpeg",
@@ -98,6 +108,16 @@ const speakers = [
     "linkedin": "",
     "shortBio": "Apple Design Award Finalist",
     "bio": "Builds things that make life easier and helping others do the same"
+  },
+  {
+    "name": "Pradnya Nikam",
+    "company": "Rakuten Viki",
+    "imageUrl": "/images/speakers/pradnya.jpeg",
+    "companyUrl": "https://www.viki.com",
+    "twitter": "pradnya_nikam",
+    "linkedin": "",
+    "shortBio": "Pradnya is an iOS engineer currently working at Rakuten Viki. She loves all things coding and also enjoys writing blog posts. In her free time you can find her practicing yoga or running around with her one year old..",
+    "bio": "Pradnya is an iOS engineer currently working at Rakuten Viki. She loves all things coding and also enjoys writing blog posts. In her free time you can find her practicing yoga or running around with her one year old."
   },  
   {
     "name": "Vincent Pradeilles",
@@ -128,7 +148,7 @@ const speakers = [
     "linkedin": "",
     "shortBio": "Daniel is the author of more than a dozen books, including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena.",
     "bio": "Daniel is the author of more than a dozen books including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena. He presents iOS, Functional Programming, SwiftUI, and Swift training and consults through his company Dim Sum Thinking. He has written apps for the iPhone and the iPad since the SDKs first appeared and has written programs for the Mac all the way back to System 7. When he's not coding or talking about coding for the Mac, the iPhone, and the iPad he's probably cooking, baking bread, or hanging out with friends."
-  },
+  },  
   {
     "name": "More speakers to be announced",
     "company": "",
