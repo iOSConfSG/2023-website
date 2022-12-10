@@ -22,7 +22,7 @@ const speakers = [
   {
     "name": "Donny Wals",
     "company": "Freelance iOS Dev",
-    "imageUrl": "/images/speakers/donny.jpeg",
+    "imageUrl": "/images/speakers/donny.jpg",
     "companyUrl": "https://www.donnywals.com/",
     "twitter": "donnywals",
     "linkedin": "https://www.linkedin.com/in/donny-wals-33660014/?originalSubdomain=nl",
@@ -42,7 +42,7 @@ const speakers = [
   {
     "name": "Antoine van der Lee",
     "company": "WeTransfer",
-    "imageUrl": "/images/speakers/antoine.jpeg",
+    "imageUrl": "/images/speakers/antoine.jpg",
     "companyUrl": "https://www.avanderlee.com/",
     "twitter": "twannl",
     "linkedin": "https://www.linkedin.com/in/ajvanderlee/",
@@ -52,7 +52,7 @@ const speakers = [
   {
     "name": "Erin Weigel",
     "company": "Erin Does Things",
-    "imageUrl": "/images/speakers/erin.jpeg",
+    "imageUrl": "/images/speakers/erin.jpg",
     "companyUrl": "http://www.erindoesthings.com/",
     "twitter": "endesignonline",
     "linkedin": "https://www.linkedin.com/in/erindoesthings",
@@ -72,7 +72,7 @@ const speakers = [
   {
     "name": "Adam Bell",
     "company": "Netflix",
-    "imageUrl": "/images/speakers/bell.jpeg",
+    "imageUrl": "/images/speakers/bell.jpg",
     "companyUrl": "https://www.netflix.com/",
     "twitter": "b3ll",
     "linkedin": "https://www.linkedin.com/in/donny-wals-33660014/?originalSubdomain=nl",
@@ -102,7 +102,7 @@ const speakers = [
   {
     "name": "Jordi Bruin",
     "company": "",
-    "imageUrl": "/images/speakers/jordi.jpeg",
+    "imageUrl": "/images/speakers/jordi.jpg",
     "companyUrl": "https://goodsnooze.gumroad.com/",
     "twitter": "jordibruin",
     "linkedin": "",
@@ -112,11 +112,11 @@ const speakers = [
   {
     "name": "Pradnya Nikam",
     "company": "Rakuten Viki",
-    "imageUrl": "/images/speakers/pradnya.jpeg",
+    "imageUrl": "/images/speakers/pradnya.jpg",
     "companyUrl": "https://www.viki.com",
     "twitter": "pradnya_nikam",
     "linkedin": "",
-    "shortBio": "Pradnya is an iOS engineer currently working at Rakuten Viki. She loves all things coding and also enjoys writing blog posts. In her free time you can find her practicing yoga or running around with her one year old..",
+    "shortBio": "Pradnya is an iOS engineer currently working at Rakuten Viki. She loves all things coding and also enjoys writing blog posts. In her free time you can find her practicing yoga or running around with her one year old.",
     "bio": "Pradnya is an iOS engineer currently working at Rakuten Viki. She loves all things coding and also enjoys writing blog posts. In her free time you can find her practicing yoga or running around with her one year old."
   },  
   {
@@ -140,7 +140,7 @@ const speakers = [
     "bio": "Priyal loves to learn and share knowledge with the community. She is passionate about accessibility, application security, testability and animations. You can catch her traveling, watching movies or enjoying cooking when she is not coding."
   },  
   {
-    "name": "Daniel H Steinberg",
+    "name": "Daniel Steinberg",
     "company": "Dim Sum Thinking",
     "imageUrl": "/images/speakers/daniel.jpg",
     "companyUrl": "https://dimsumthinking.com",
@@ -148,6 +148,16 @@ const speakers = [
     "linkedin": "",
     "shortBio": "Daniel is the author of more than a dozen books, including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena.",
     "bio": "Daniel is the author of more than a dozen books including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena. He presents iOS, Functional Programming, SwiftUI, and Swift training and consults through his company Dim Sum Thinking. He has written apps for the iPhone and the iPad since the SDKs first appeared and has written programs for the Mac all the way back to System 7. When he's not coding or talking about coding for the Mac, the iPhone, and the iPad he's probably cooking, baking bread, or hanging out with friends."
+  },  
+  {
+    "name": "Martin Mitrevski",
+    "company": "Stream",
+    "imageUrl": "/images/speakers/martin.jpg",
+    "companyUrl": "https://getstream.io/",
+    "twitter": "mitrevski",
+    "linkedin": "",
+    "shortBio": "Martin is leading the iOS team at Stream. He has over 10 years of experience, working on apps and sdks in digital payments, chats, healthcare, transport, augmented reality, conversational interfaces, insurance etc.",
+    "bio": "Martin is leading the iOS team at Stream. He has over 10 years of experience, working on apps and sdks in digital payments, chats, healthcare, transport, augmented reality, conversational interfaces, insurance etc. He's also the author of the book “Developing Conversational Interfaces for iOS”, published by Apress."
   },  
   {
     "name": "More speakers to be announced",

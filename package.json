@@ -15,7 +15,11 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.6.6",
     "@heroicons/react": "^1.0.6",
-    "next": "12.2.3",
+    "classnames": "^2.3.2",
+    "luxon": "^3.1.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.38",
+    "next": "12.3.2-canary.43",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "swiper": "^8.3.2"

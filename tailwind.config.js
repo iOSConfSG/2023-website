@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans]
       },
+      tableLayout: ['hover', 'focus']
     },
   },
   plugins: [],

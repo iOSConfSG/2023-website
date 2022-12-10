@@ -17,6 +17,8 @@ export { default as Venue } from "./section/Venue"
 
 // UI
 
+export { default as ScheduleTable } from "./ui/ScheduleTable"
 export { default as Slideshow } from "./ui/Slideshow"
 export { default as SpeakerBioItem } from "./ui/SpeakerBioItem"
 export { default as SpeakerBioModal } from "./ui/SpeakerBioModal"
+export { default as Tabs } from "./ui/Tabs"
