@@ -11,9 +11,9 @@ const speakers = [
   },
   {
     "name": "Danijela Vrzan",
-    "company": "Bally's Interactive",
+    "company": "Bally's Corporation",
     "imageUrl": "/images/speakers/danijela.jpg",
-    "companyUrl": "https://www.ballys.com/about/ballys-interactive-na/default.aspx",
+    "companyUrl": "https://www.ballys.com",
     "twitter": "dvrzan",
     "linkedin": "",
     "shortBio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym.",
@@ -31,9 +31,9 @@ const speakers = [
   },
   {
     "name": "Tunde Adegoroye",
-    "company": "Bally's Interactive",
+    "company": "Bally's Corporation",
     "imageUrl": "/images/speakers/tunde.jpg",
-    "companyUrl": "https://ballysinteractive.com",
+    "companyUrl": "https://ballys.com",
     "twitter": "tundsdev",
     "linkedin": "",
     "shortBio": "SwiftUI and all things related to iOS development on YouTube @tundsdev",
@@ -90,24 +90,14 @@ const speakers = [
     "bio": "Masahiko is Principal, Developer Advocate in JAPAC at CircleCI, a Continuous Integration and Delivery platform used by the world's best engineering teams. Masahiko is passionate about helping organizations of all sizes achieve digital innovation and has developed a deep understanding of both the business and technology sides through hands-on experience as an engineer and as a leader in global enterprises like Microsoft and SAP."
   },
   {
-    "name": "Eleni Papanikolopoulou",
-    "company": "Skroutz",
-    "imageUrl": "/images/speakers/eleni.jpg",
-    "companyUrl": "https://www.skroutz.gr",
-    "twitter": "elenipapanikolo",
-    "linkedin": "",
-    "shortBio": "Eleni works at Skroutz, the biggest e-commerce platform in Greece and is part of the core mobile team focusing primarily on infrastructure, architecture and testing.",
-    "bio": "Eleni is an iOS Developer with many years of experience working on various iOS Apps. She is currently working at Skroutz, the biggest e-commerce platform in Greece and she is part of the core mobile team focusing primarily on infrastructure, architecture and testing. She is the author of several articles in Medium and when she is not working she enjoys skiing and traveling."
-  }, 
-  {
-    "name": "Jordi Bruin",
-    "company": "",
-    "imageUrl": "/images/speakers/jordi.jpg",
-    "companyUrl": "https://goodsnooze.gumroad.com/",
-    "twitter": "jordibruin",
-    "linkedin": "",
-    "shortBio": "Apple Design Award Finalist",
-    "bio": "Builds things that make life easier and helping others do the same"
+    "name": "Anya Traille",
+    "company": "Rolls-Royce",
+    "imageUrl": "/images/speakers/anya.jpg",
+    "companyUrl": "https://www.rolls-royce.com",
+    "twitter": "LaminarModes",
+    "linkedin": "https://www.linkedin.com/in/anyatraille",
+    "shortBio": "Anya is a decision scientist, engineer, designer and creator of LaminarModes.",
+    "bio": "Anya is a decision scientist, engineer, designer and creator of LaminarModes."
   },
   {
     "name": "Pradnya Nikam",
@@ -118,7 +108,47 @@ const speakers = [
     "linkedin": "",
     "shortBio": "Pradnya is an iOS engineer currently working at Rakuten Viki. She loves all things coding and also enjoys writing blog posts. In her free time you can find her practicing yoga or running around with her one year old.",
     "bio": "Pradnya is an iOS engineer currently working at Rakuten Viki. She loves all things coding and also enjoys writing blog posts. In her free time you can find her practicing yoga or running around with her one year old."
-  },  
+  }, 
+  {
+    "name": "Jordi Bruin",
+    "company": "Good Snooze",
+    "imageUrl": "/images/speakers/jordi.jpg",
+    "companyUrl": "https://goodsnooze.gumroad.com/",
+    "twitter": "jordibruin",
+    "linkedin": "",
+    "shortBio": "Apple Design Award Finalist, Jordi, builds things that make life easier and help others do the same.",
+    "bio": "Jordi builds things that make life easier and help others do the same."
+  },
+  {
+    "name": "Martin Mitrevski",
+    "company": "Stream",
+    "imageUrl": "/images/speakers/martin.jpg",
+    "companyUrl": "https://getstream.io/",
+    "twitter": "mitrevski",
+    "linkedin": "",
+    "shortBio": "Martin is leading the iOS team at Stream. He has over 10 years of experience, working on apps and sdks in digital payments, chats, healthcare, transport, augmented reality, conversational interfaces, insurance etc.",
+    "bio": "Martin is leading the iOS team at Stream. He has over 10 years of experience, working on apps and sdks in digital payments, chats, healthcare, transport, augmented reality, conversational interfaces, insurance etc. He's also the author of the book “Developing Conversational Interfaces for iOS”, published by Apress."
+  },
+  {
+    "name": "Eleni Papanikolopoulou",
+    "company": "Skroutz",
+    "imageUrl": "/images/speakers/eleni.jpg",
+    "companyUrl": "https://www.skroutz.gr",
+    "twitter": "elenipapanikolo",
+    "linkedin": "",
+    "shortBio": "Eleni works at Skroutz, the biggest e-commerce platform in Greece and is part of the core mobile team focusing primarily on infrastructure, architecture and testing.",
+    "bio": "Eleni is an iOS Developer with many years of experience working on various iOS Apps. She is currently working at Skroutz, the biggest e-commerce platform in Greece and she is part of the core mobile team focusing primarily on infrastructure, architecture and testing. She is the author of several articles in Medium and when she is not working she enjoys skiing and traveling."
+  },    
+  {
+    "name": "Mikaela Caron",
+    "company": "Indie Developer",
+    "imageUrl": "/images/speakers/mikaela.jpg",
+    "companyUrl": "https://mikaelacaron.com/links",
+    "twitter": "mikaela__caron",
+    "linkedin": "",
+    "shortBio": "Mikaela is an iOS developer working on building her own apps and sharing her experience on YouTube, Instagram, and Twitter.",
+    "bio": "Mikaela is an iOS developer working on building her own apps and sharing her experience on YouTube, Instagram, and Twitter."
+  },    
   {
     "name": "Vincent Pradeilles",
     "company": "PhotoRoom",
@@ -138,7 +168,7 @@ const speakers = [
     "linkedin": "https://www.linkedin.com/in/priyal-porwal",
     "shortBio": "Priyal loves to learn and share knowledge with the community. She is passionate about accessibility, application security, testability and animations.",
     "bio": "Priyal loves to learn and share knowledge with the community. She is passionate about accessibility, application security, testability and animations. You can catch her traveling, watching movies or enjoying cooking when she is not coding."
-  },  
+  },
   {
     "name": "Daniel Steinberg",
     "company": "Dim Sum Thinking",
@@ -148,17 +178,7 @@ const speakers = [
     "linkedin": "",
     "shortBio": "Daniel is the author of more than a dozen books, including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena.",
     "bio": "Daniel is the author of more than a dozen books including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena. He presents iOS, Functional Programming, SwiftUI, and Swift training and consults through his company Dim Sum Thinking. He has written apps for the iPhone and the iPad since the SDKs first appeared and has written programs for the Mac all the way back to System 7. When he's not coding or talking about coding for the Mac, the iPhone, and the iPad he's probably cooking, baking bread, or hanging out with friends."
-  },  
-  {
-    "name": "Martin Mitrevski",
-    "company": "Stream",
-    "imageUrl": "/images/speakers/martin.jpg",
-    "companyUrl": "https://getstream.io/",
-    "twitter": "mitrevski",
-    "linkedin": "",
-    "shortBio": "Martin is leading the iOS team at Stream. He has over 10 years of experience, working on apps and sdks in digital payments, chats, healthcare, transport, augmented reality, conversational interfaces, insurance etc.",
-    "bio": "Martin is leading the iOS team at Stream. He has over 10 years of experience, working on apps and sdks in digital payments, chats, healthcare, transport, augmented reality, conversational interfaces, insurance etc. He's also the author of the book “Developing Conversational Interfaces for iOS”, published by Apress."
-  },  
+  },   
   {
     "name": "More speakers to be announced",
     "company": "",

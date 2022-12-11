@@ -17,7 +17,7 @@ export default function SponsorSection () {
                     <Image
                       src={s.imageUrl}
                       layout="fill"
-                      objectFit="contain"
+                      objectfit="contain"
                       alt={s.name}
                       width={256}
                       height={96}
@@ -40,7 +40,7 @@ export default function SponsorSection () {
                     <Image
                       src={s.imageUrl}
                       layout="fill"
-                      objectFit="contain"
+                      objectfit="contain"
                       alt={s.name}
                       width={256}
                       height={144}
