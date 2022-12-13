@@ -71,7 +71,7 @@ export default function Header () {
                   src="/images/logo.png"
                   alt="iOS Conf Logo"
                   layout="intrinsic"
-                  objectFit="cover"
+                  objectfit="cover"
                   className="h-8 w-auto sm:h-10 cursor-pointer"
                   height={64}
                   width={64}
@@ -132,7 +132,7 @@ export default function Header () {
                       src="/images/logo.png"
                       alt="iOS Conf Logo"
                       layout="intrinsic"
-                      objectFit="cover"
+                      objectfit="cover"
                       className="h-8 w-auto sm:h-10"
                       height={48}
                       width={48}
