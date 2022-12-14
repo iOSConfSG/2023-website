@@ -25,7 +25,7 @@ const speakers = [
     "imageUrl": "/images/speakers/donny.jpg",
     "companyUrl": "https://www.donnywals.com/",
     "twitter": "donnywals",
-    "linkedin": "https://www.linkedin.com/in/donny-wals-33660014/?originalSubdomain=nl",
+    "linkedin": "donny-wals-33660014",
     "shortBio": "Donny is a freelance iOS engineer and author who loves learning and sharing knowledge.",
     "bio": "Donny is a freelance iOS engineer who loves learning and sharing knowledge. When he is not working on something iOS-related, you'll probably find him noodling around on his guitar. "
   },
@@ -45,7 +45,7 @@ const speakers = [
     "imageUrl": "/images/speakers/antoine.jpg",
     "companyUrl": "https://www.avanderlee.com/",
     "twitter": "twannl",
-    "linkedin": "https://www.linkedin.com/in/ajvanderlee/",
+    "linkedin": "ajvanderlee",
     "shortBio": "As a Staff iOS Engineer at WeTransfer, Antoine’s work is focused on code architecture and team processes.",
     "bio": "As a Staff iOS Engineer at WeTransfer, Antoine’s work is focused on code architecture and team processes."
   },
@@ -55,7 +55,7 @@ const speakers = [
     "imageUrl": "/images/speakers/erin.jpg",
     "companyUrl": "http://www.erindoesthings.com/",
     "twitter": "endesignonline",
-    "linkedin": "https://www.linkedin.com/in/erindoesthings",
+    "linkedin": "erindoesthings",
     "shortBio": "Erin delivers impactful design, user-centric products and tells stories about how she does it. She's got lots of experience testing designs in her previous role as Principal Designer at Booking.com.",
     "bio": "Erin delivers impactful design, user-centric products and tells stories about how she does it. Her career started in customer service working retail and waiting tables. This experience gave her a service mindset, which guides her design approach. She's got lots of experience testing designs in her previous role as Principal Designer at Booking.com, where she worked for 9 years. She also dabbles in product management, engineering, and people management. Previously her specialty was data-informed design and experimentation. Now she focuses on design systems, operations, and product accessibility. She's currently writing a book for Rosenfeld Media called 'Design for Impact,' which is scheduled to publish late 2023."
   },
@@ -75,7 +75,7 @@ const speakers = [
     "imageUrl": "/images/speakers/bell.jpg",
     "companyUrl": "https://www.netflix.com/",
     "twitter": "b3ll",
-    "linkedin": "https://www.linkedin.com/in/donny-wals-33660014/?originalSubdomain=nl",
+    "linkedin": "b3ll",
     "shortBio": "Adam is a software engineer specialising in audio, animations, interactions, and gestures, currently working at Netflix.",
     "bio": "Adam is a software engineer specialising in audio, animations, interactions, and gestures, currently working at Netflix. He is the creator of a highly performant animation and gestural interaction library called Motion (https://github.com/b3ll/Motion). In his spare time, he enjoys racing cars, messing with synthesizers, listening to records, and dabbling with the internals of Apple products."
   },   
@@ -95,7 +95,7 @@ const speakers = [
     "imageUrl": "/images/speakers/anya.jpg",
     "companyUrl": "https://www.rolls-royce.com",
     "twitter": "LaminarModes",
-    "linkedin": "https://www.linkedin.com/in/anyatraille",
+    "linkedin": "anyatraille",
     "shortBio": "Anya is a decision scientist, engineer, designer and creator of LaminarModes.",
     "bio": "Anya is a decision scientist, engineer, designer and creator of LaminarModes."
   },
@@ -165,7 +165,7 @@ const speakers = [
     "imageUrl": "/images/speakers/priyal.jpg",
     "companyUrl": "https://paytm.com",
     "twitter": "priyal_porwal_",
-    "linkedin": "https://www.linkedin.com/in/priyal-porwal",
+    "linkedin": "priyal-porwal",
     "shortBio": "Priyal loves to learn and share knowledge with the community. She is passionate about accessibility, application security, testability and animations.",
     "bio": "Priyal loves to learn and share knowledge with the community. She is passionate about accessibility, application security, testability and animations. You can catch her traveling, watching movies or enjoying cooking when she is not coding."
   },

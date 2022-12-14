@@ -3,7 +3,7 @@ const organisers = [
       "name": "Vina Melody",
       "imageUrl": "/images/organisers/vina.jpeg",
       "twitter": "vinamelody",
-      "linkedin": "in/vinamelody",
+      "linkedin": "vinamelody",
     },
     {
       "name": "Subhransu Behera",
@@ -15,7 +15,7 @@ const organisers = [
       "name": "Melvin Tan",
       "imageUrl": "/images/organisers/melvin.jpg",
       "twitter": "",
-      "linkedin": "in/melvintansl",
+      "linkedin": "melvintansl",
     },    
     {
       "name": "Janina Kutyn",
@@ -33,25 +33,31 @@ const organisers = [
       "name": "Perwyl Liu",
       "imageUrl": "/images/organisers/perwyl.jpeg",
       "twitter": "",
-      "linkedin": "/in/perwyl-liu-b1283274",
+      "linkedin": "perwyl-liu-b1283274",
     },
     {
       "name": "Kale Toh",
       "imageUrl": "/images/organisers/kale.jpeg",
       "twitter": "",
-      "linkedin": "in/kaletoh",
+      "linkedin": "kaletoh",
     },
     {
       "name": "Tim Shim",
       "imageUrl": "/images/organisers/timshim.jpeg",
       "twitter": "",
-      "linkedin": "/in/tim-shim-793aa04",
+      "linkedin": "tim-shim-793aa04",
     },
     {
       "name": "Bunty Mandan",
       "imageUrl": "/images/organisers/bunty.jpg",
       "twitter": "buntylm",
       "linkedin": "",
+    },
+    {
+      "name": "Nadun De Silva",
+      "imageUrl": "/images/organisers/nadun.jpg",
+      "twitter": "enadun",
+      "linkedin": "enadun",
     },
 ]
 

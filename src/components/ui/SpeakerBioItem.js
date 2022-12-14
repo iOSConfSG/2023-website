@@ -29,7 +29,7 @@ function SpeakerBioItem (props) {
                 </Link>
               }
               {hasLinkedIn &&
-                <Link className="ml-1" href={speaker.linkedin} passHref legacyBehavior>
+                <Link className="ml-1" href={`https://www.linkedin.com/in/${speaker.linkedin}`} passHref legacyBehavior>
                   <a target="_blank" rel="noopener noreferrer">
                     &nbsp;<FontAwesomeIcon size="1x" icon={faLinkedin} />
                   </a>
