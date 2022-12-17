@@ -62,7 +62,7 @@ const speakers = [
   {
     "name": "Betty Godier",
     "company": "VanMoof",
-    "imageUrl": "/images/speakers/betty.png",
+    "imageUrl": "/images/speakers/betty.jpg",
     "companyUrl": "https://www.vanmoof.com/en",
     "twitter": "bettygodier",
     "linkedin": "",
@@ -141,13 +141,13 @@ const speakers = [
   },    
   {
     "name": "Mikaela Caron",
-    "company": "Indie Developer",
+    "company": "Lickability",
     "imageUrl": "/images/speakers/mikaela.jpg",
-    "companyUrl": "https://mikaelacaron.com/links",
+    "companyUrl": "https://lickability.com/",
     "twitter": "mikaela__caron",
     "linkedin": "",
-    "shortBio": "Mikaela is an iOS developer working on building her own apps and sharing her experience on YouTube, Instagram, and Twitter.",
-    "bio": "Mikaela is an iOS developer working on building her own apps and sharing her experience on YouTube, Instagram, and Twitter."
+    "shortBio": "Mikaela is an iOS Engineer at Lickability. She creates content on YouTube, Instagram, and Twitter, sharing her knowledge about iOS development, and is an organizer of iOSDevHappy Hour.",
+    "bio": "Mikaela is an iOS Engineer at Lickability. She creates content on YouTube, Instagram, and Twitter, sharing her knowledge about iOS development, and is an organizer of iOSDevHappy Hour."
   },    
   {
     "name": "Vincent Pradeilles",
