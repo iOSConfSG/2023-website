@@ -12,7 +12,30 @@ export default function SponsorSection () {
           {
             SponsorsData['gold'].map((s, index) => (
               <div key={index} className="col-span-1 flex justify-center py-8 px-8 bg-white">
-                <div className="relative h-24 w-64">
+                <div className="relative h-16 w-80">
+                  <a href={s.imageHref} target="_blank" rel="noreferrer">
+                    <Image
+                      src={s.imageUrl}
+                      layout="fill"
+                      objectfit="contain"
+                      alt={s.name}
+                      width={256}
+                      height={96}
+                    />
+                  </a>
+                  </div>
+              </div>
+            ))
+          }
+        </div>
+        <p className="text-center text-3xl font-semibold text-black">
+          Coffee Sponsor
+        </p>
+        <div className="mt-6 flex justify-center lg:mt-8">
+          {
+            SponsorsData['coffee'].map((s, index) => (
+              <div key={index} className="col-span-1 flex justify-center py-8 px-8 bg-white">
+                <div className="relative h-48 w-40">
                   <a href={s.imageHref} target="_blank" rel="noreferrer">
                     <Image
                       src={s.imageUrl}
@@ -35,7 +58,7 @@ export default function SponsorSection () {
           {
             SponsorsData['silver'].map((s, index) => (
               <div key={index} className="col-span-1 flex justify-center py-8 px-8 bg-white">
-                <div className="relative h-20 w-48">
+                <div className="relative h-8 w-48">
                   <a href={s.imageHref} target="_blank" rel="noreferrer">
                     <Image
                       src={s.imageUrl}
