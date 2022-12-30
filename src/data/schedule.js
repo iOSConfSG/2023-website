@@ -519,6 +519,19 @@ const schedule = [
       "talk_description": "🚧",
       "talk_type": "shortbreak",
       "title": "Closing address"
+    },
+    {
+      "activity": "iosconfsg23.day2",
+      "start_at": "2023-01-13T11:00:00+00:00",
+      "id": 45,
+      "speaker_bio": "iOS Conf SG Organisers",
+      "speaker_company": "Organiser",
+      "speaker_image": "who",
+      "speaker_name": "Organiser",
+      "speaker_twitter": "iosconfsg",
+      "talk_description": "🚧",
+      "talk_type": "afterparty",
+      "title": "Afterparty🍻"
     }
   ]
   
