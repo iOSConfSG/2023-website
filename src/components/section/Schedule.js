@@ -8,10 +8,10 @@ import { Tabs, ScheduleTable, SpeakerBioModal } from '@/components'
 function formatDate(stringDate, timezone) {
   if (timezone) {
     const rezoned = DateTime.fromISO(stringDate, { zone: timezone }).setLocale('sg')
-    return rezoned.toFormat('hh:mm')
+    return rezoned.toFormat('HH:mm')
   } else {
     const dt = DateTime.fromISO(stringDate, { zone: localTimezone }).setLocale('sg')
-    return dt.toFormat('hh:mm')
+    return dt.toFormat('HH:mm')
   }
 }
 const localTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone

@@ -13,6 +13,13 @@ const sponsors = {
       imageHref: "https://getstream.io/tutorials/ios-chat/?utm_source=iOSConfSG&utm_medium=Whole_Event_L&utm_content=Developer&utm_campaign=iOSConfSG_January2023_iOSSDK_klmh22",
       imageUrl: "/images/logo-stream.png"
     },
+  ],
+  coffee: [
+    {
+      name: "GovTech",
+      imageHref: "https://www.tech.gov.sg/",
+      imageUrl: "/images/logo-govtech.jpg"
+    },
   ]
 }
 
