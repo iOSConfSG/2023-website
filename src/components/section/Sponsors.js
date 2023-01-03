@@ -8,13 +8,13 @@ export default function SponsorSection () {
         <p className="text-center text-4xl font-semibold text-black">
           Gold Sponsors
         </p>
-        <div className="mt-6 flex justify-center lg:mt-8">
+        <div className="my-12 py-12 flex flex-row items-stretch justify-center lg:mt-8">
           {
             SponsorsData['gold'].map((s, index) => (
-              <div key={index} className="col-span-1 flex justify-center py-8 px-8 bg-white">
-                <div className="relative h-16 w-80">
+              <div key={index} className="col-span-1 bg-white h-16 w-80 flex items-center">
                   <a href={s.imageHref} target="_blank" rel="noreferrer">
                     <Image
+                      className="max-w-fit max-h-24"
                       src={s.imageUrl}
                       layout="fill"
                       objectfit="contain"
@@ -23,7 +23,6 @@ export default function SponsorSection () {
                       height={96}
                     />
                   </a>
-                  </div>
               </div>
             ))
           }
