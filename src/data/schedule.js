@@ -61,7 +61,7 @@ const schedule = [
 			"speaker_image": "daniel",    
 			"speaker_twitter": "dimsumthinking",
 			"speaker_bio": "Daniel is the author of more than a dozen best-selling books. He conducts iOS, Functional Programming, SwiftUI, & #Swift training.",         
-      "talk_description": "We’ll move on to examples of asynchronous sequences, notifications, url sessions, and other Apple APIs.We’ll finish with async in SwiftUI, structured concurrency, and actors.",
+      "talk_description": "We'll move on to examples of asynchronous sequences, notifications, url sessions, and other Apple APIs.We’ll finish with async in SwiftUI, structured concurrency, and actors.",
       "talk_type": "workshop",
       "title": "An Async/Await Kickstart"
     },
@@ -113,9 +113,9 @@ const schedule = [
       "speaker_image": "tunde",
       "speaker_name": "Tunde Adegoroye",
       "speaker_twitter": "tundsdev",
-			"talk_description": "🚧",
+			"talk_description": "This talk will cover the updates Apple has made in StoreKit to make our lives easier when working with StoreKit2. Tunde will talk about how can use these new API’s to build a tip jar, things to look out for during submission and exciting other topics",
 			"talk_type": "normalTalk",
-			"title": "Watch out for an amazing 🤩 opening talk!",
+			"title": "Mo Tips, Less Problems - Building a Tip Jar in StoreKit2",
     },
     {
       "activity": "iosconfsg23.day1",
@@ -125,10 +125,10 @@ const schedule = [
       "speaker_company": "VanMoof",
       "speaker_image": "betty",
       "speaker_name": "Betty Godier",
-      "speaker_twitter": "",
-      "talk_description": "🚧",
+      "speaker_twitter": "Betty enjoys exploring new Apple Frameworks as a creator and she adores building new things as a builder. That is where the idea for her Weather iOS app came from. As a mentor, she loves transmitting her knowledge and working to help iOS community understand how these new frameworks may enhance their day-to-day work and help them decide when and why to switch to SwiftCharts or implement WeatherKit.",
+      "talk_description": "🌦️",
       "talk_type": "normalTalk",
-      "title": "This will be 🤯!"
+      "title": "Swift Charts with WeatherKit - Behind the Scene"
     },
     {
       "activity": "iosconfsg23.day1",
@@ -141,7 +141,7 @@ const schedule = [
       "speaker_twitter": "iosconfsg",
       "talk_description": "10 minutes break",
       "talk_type": "shortbreak",
-      "title": "Coffee Break ☕ 🚻 💬"
+      "title": "Coffee Break ☕️"
     },
     {
       "activity": "iosconfsg23.day1",
@@ -152,9 +152,9 @@ const schedule = [
       "speaker_image": "martin",
       "speaker_name": "Martin Mitrevski",
       "speaker_twitter": "mitrevski",
-      "talk_description": "🚧",
+      "talk_description": "In an amazing app experience, every frame drop counts. In this talk, we will see the most common pitfalls that slow SwiftUI apps down. We will learn about animation hitches, using Instruments, debugging techniques and some practical tips that will improve the performance of your apps.",
       "talk_type": "normalTalk",
-      "title": "An awesome talk is brewing"
+      "title": "SwiftUI Performance Tips"
     },
     {
       "activity": "iosconfsg23.day1",
@@ -165,26 +165,13 @@ const schedule = [
       "speaker_image": "pradnya",
       "speaker_name": "Pradnya Nikam",
       "speaker_twitter": "pradnya_nikam",
-      "talk_description": "🚧",
+      "talk_description": "⚡️",
       "talk_type": "lightningTalk",
-      "title": "Zen 🎧, it'll be done soon"
+      "title": "Better Ways to Draw Shadows"
     },
     {
       "activity": "iosconfsg23.day1",
-      "start_at": "2023-01-12T08:50:00+00:00",
-      "id": 20,
-      "speaker_bio": "",
-      "speaker_company": "",
-      "speaker_image": "who",
-      "speaker_name": "🤓",
-      "speaker_twitter": "",
-      "talk_description": "🚧",
-      "talk_type": "lightningTalk",
-      "title": "A Jedi 👨🏼‍💻 is working on this"
-    },
-    {
-      "activity": "iosconfsg23.day1",
-      "start_at": "2023-01-12T09:00:00+00:00",
+      "start_at": "2023-01-12T08:45:00+00:00",
       "id": 22,
       "speaker_bio": "iOS Conf SG Organisers",
       "speaker_company": "iOSConfSG",
@@ -193,46 +180,46 @@ const schedule = [
       "speaker_twitter": "iosconfsg",
       "talk_description": "",
       "talk_type": "shortbreak",
-      "title": "Short break + 📸"
+      "title": "Short Break ☕️ 🚻 💬"
     },
     {
       "activity": "iosconfsg23.day1",
-      "start_at": "2023-01-12T09:10:00+00:00",
+      "start_at": "2023-01-12T09:00:00+00:00",
       "id": 20,
       "speaker_bio": "Erin delivers impactful design, user-centric products and tells stories about how she does it. Her career started in customer service working retail and waiting tables. This experience gave her a service mindset, which guides her design approach. She's got lots of experience testing designs in her previous role as Principal Designer at Booking.com, where she worked for 9 years. She also dabbles in product management, engineering, and people management. Previously her specialty was data-informed design and experimentation. Now she focuses on design systems, operations, and product accessibility. She's currently writing a book for Rosenfeld Media called 'Design for Impact', which is scheduled to publish late 2023.",
       "speaker_company": "Erin Does Things",
       "speaker_image": "erin",
       "speaker_name": "Erin Weigel",
       "speaker_twitter": "endesignonline",
-      "talk_description": "🚧",
+      "talk_description": "Experimentation for Engineers",
       "talk_type": "normalTalk",
-      "title": "We'll keep this under a 🎁"
+      "title": "Experimentation for Engineers"
     },
     {
       "activity": "iosconfsg23.day1",
-      "start_at": "2023-01-12T09:45:00+00:00",
+      "start_at": "2023-01-12T09:35:00+00:00",
       "id": 20,
       "speaker_bio": "Builds things that make life easier and helping others do the same",
       "speaker_company": "",
       "speaker_image": "jordi",
       "speaker_name": "Jordi Bruin",
       "speaker_twitter": "jordibruin",
-      "talk_description": "🚧",
+      "talk_description": "Jordi is an indie developer building products for Apple platforms. He has launched more than 20 apps and side projects over the last two years, seven of which have been featured on the App Store across the world and he was one of the finalists for the Apple Design Awards this year. In this talk he will walk you through his 2-2-2 method which helps you keep your ideas small, and actually ship them.",
       "talk_type": "normalTalk",
-      "title": "A whole new level of Swift coming up!"
+      "title": "Shipping Side Projects in 2-2-2 Easy Steps"
     },
     {
       "activity": "iosconfsg23.day1",
-      "start_at": "2023-01-12T10:20:00+00:00",
+      "start_at": "2023-01-12T10:10:00+00:00",
       "id": 13,
       "speaker_bio": "iOS Conf SG Organiser",
       "speaker_company": "Organiser",
       "speaker_image": "kale",
       "speaker_name": "Kale Starler",
       "speaker_twitter": "kale",
-      "talk_description": "🚧",
+      "talk_description": "🎤",
       "talk_type": "closingAddress",
-      "title": "This isn't the end yet!"
+      "title": "Closing Address"
     },  
     {
       "activity": "iosconfsg23.day2",
@@ -256,7 +243,7 @@ const schedule = [
       "speaker_image": "melvin",
       "speaker_name": "Melvin Tan",
       "speaker_twitter": "Melvin_tan",
-      "talk_description": "🚧",
+      "talk_description": "🎤",
       "talk_type": "openingAddress",
       "title": "Opening address"
     },
@@ -269,7 +256,7 @@ const schedule = [
 			"speaker_twitter": "mikaela__caron",
 			"speaker_bio": "Mikaela is an iOS Engineer at Lickability. She creates content on YouTube, Instagram, and Twitter, sharing her knowledge about iOS development, and is an organizer of iOSDevHappy Hour.",
       "speaker_name": "Mikaela Caron",
-      "talk_description": "🚧",
+      "talk_description": "🦄",
       "talk_type": "normalTalk",
       "title": "A unique and refreshing talk"
     },
@@ -282,22 +269,22 @@ const schedule = [
       "speaker_image": "paul",
       "speaker_name": "Paul Hudson",
       "speaker_twitter": "twostraws",
-      "talk_description": "🚧",
+      "talk_description": "Can it?",
       "talk_type": "normalTalk",
-      "title": "You know, Paul always has a new trick for us 😏"
+      "title": "Man vs Machine: Can ChatGPT write better SwiftUI than you?"
     },
     {
       "activity": "iosconfsg23.day2",
       "start_at": "2023-01-13T02:40:00+00:00",
       "id": 20,
       "speaker_bio": "",
-      "speaker_company": "",
+      "speaker_company": "Grab",
       "speaker_image": "who",
-      "speaker_name": "🤓",
+      "speaker_name": "Omar",
       "speaker_twitter": "",
-      "talk_description": "🚧",
+      "talk_description": "⚡️",
       "talk_type": "lightningTalk",
-      "title": "Something that tastes like a quick bite"
+      "title": "Demystifying Superapps"
     },
     {
       "activity": "iosconfsg23.day2",
@@ -321,9 +308,9 @@ const schedule = [
       "speaker_image": "danijela",
       "speaker_name": "Danijela Vrzan",
       "speaker_twitter": "dvrzan",
-      "talk_description": "🚧",
+      "talk_description": "Taking Firebase dynamic links to a new height!",
       "talk_type": "normalTalk",
-      "title": "A talk that is sweet like an 🍨"
+      "title": "Improve User Experience With Firebase Dynamic Links"
     },
 		{
       "activity": "iosconfsg23.day2",
@@ -334,9 +321,9 @@ const schedule = [
       "speaker_image": "eleni",
       "speaker_name": "Eleni Papanikolopoulou",
       "speaker_twitter": "",
-      "talk_description": "🚧",
+      "talk_description": "Does diversity matters? Why should we care? How can we play our part?",
       "talk_type": "normalTalk",
-      "title": "Lunch is coming but this talk will be the appetizer"
+      "title": "Diversifying the Community"
     },
     {
       "activity": "iosconfsg23.day2",
@@ -373,9 +360,9 @@ const schedule = [
       "speaker_image": "vincent",
       "speaker_name": "Vincent Pradeilles",
       "speaker_twitter": "v_pradeilles",
-      "talk_description": "🚧",
+      "talk_description": "Are you ready for some fun and Swift. Mostly fun! And Swift. 🥳",
       "talk_type": "lightningTalk",
-      "title": "Something for everyone!"
+      "title": "Swift Quiz"
     },
     {
       "activity": "iosconfsg23.day2",
@@ -386,22 +373,22 @@ const schedule = [
       "speaker_image": "antoine",
       "speaker_name": "Antoine van der Lee",
       "speaker_twitter": "",
-      "talk_description": "🚧",
+      "talk_description": "Do you know about these hidden gems? 💎",
       "talk_type": "normalTalk",
-      "title": "Freshly baking it now 🥖"
+      "title": "Making the Most Out of Swift"
     },
     {
       "activity": "iosconfsg23.day2",
       "start_at": "2023-01-13T06:35:00+00:00",
       "id": 20,
-      "speaker_bio": "",
-      "speaker_company": "",
-      "speaker_image": "who",
-      "speaker_name": "Panel Discussion",
+      "speaker_bio": "Organiser",
+      "speaker_company": "Organiser",
+      "speaker_image": "janina",
+      "speaker_name": "Janina Kutyn",
       "speaker_twitter": "",
-      "talk_description": "🚧",
-      "talk_type": "panel",
-      "title": "Don't stay still for this, seize your moment!"
+      "talk_description": "Janina discussing with Paul, Erin, Tunde and Mikaela",
+      "talk_type": "Janina discussing with Paul, Erin, Tunde and Mikaela",
+      "title": "More Than Code: Rooting Yourself in the iOS Community"
     },
     {
       "activity": "iosconfsg23.day2",
@@ -412,22 +399,22 @@ const schedule = [
       "speaker_image": "masahiko-funaki",
       "speaker_name": "Masahiko Funaki",
       "speaker_twitter": "mfunaki",
-      "talk_description": "🚧",
+      "talk_description": "If you share your code on a repository like GitHub, BitBucket and GitLab with your collaborators, who is responsible for building, testing and releasing when someone modified and pushed their code to the repository?  Are you tired of setting up (and maintaining) a shared build/test server?  CircleCI will take care of these development processes in an automated way on Cloud.  You can focus more on coding.  CircleCI helps you CI/CD your iOS project up to 600 minutes/month for free with the macOS environment on Cloud.",
       "talk_type": "lightningTalk",
-      "title": "This will be sugoooi 🤯"
-  },
+      "title": "Automate building and testing your iPhone application with CircleCI Cloud."
+    },
     {
       "activity": "iosconfsg23.day2",
-      "start_at": "2023-01-13T07:40:00+00:00",
+      "start_at": "2023-01-13T07:30:00+00:00",
       "id": 4,
       "speaker_bio": "iOS Conf SG Organisers",
       "speaker_company": "iOSConfSG",
       "speaker_image": "organiser",
       "speaker_name": "Organiser",
       "speaker_twitter": "iosconfsg",
-      "talk_description": "Coffee Break",
+      "talk_description": "Coffee Break ☕️",
       "talk_type": "shortbreak",
-      "title": "📸"
+      "title": "Coffee Break ☕️"
     },
     {
       "activity": "iosconfsg23.day2",
@@ -438,9 +425,9 @@ const schedule = [
       "speaker_image": "anya",
       "speaker_name": "Anya",
       "speaker_twitter": "LaminarModes",
-      "talk_description": "🎉",
+      "talk_description": "🎨",
       "talk_type": "normalTalk",
-      "title": "Wish we could reveal this 😹"
+      "title": "Beyond RGB: Designing Delightful Apps"
     },    
     {
       "activity": "iosconfsg23.day2",
@@ -451,26 +438,13 @@ const schedule = [
       "speaker_image": "donny",
       "speaker_name": "Donny Wals",
       "speaker_twitter": "donnywals",
-      "talk_description": "🚧",
+      "talk_description": "This talk will cover some interesting bits and details about how Swift Concurrency requires a bit of a different way of thinking compared to what we used before!",
       "talk_type": "normalTalk",
-      "title": "Something magical 🪄"
-    },  
+      "title": "Your Brain 🧠 on Swift Concurrency"
+    },     
     {
       "activity": "iosconfsg23.day2",
       "start_at": "2023-01-13T09:10:00+00:00",
-      "id": 32,
-      "speaker_bio": "",
-      "speaker_company": "",
-      "speaker_image": "priyal",
-      "speaker_name": "Priyal Porwal",
-      "speaker_twitter": "",
-      "talk_description": "🚧",
-      "talk_type": "lightningTalk",
-      "title": "Simple yet powerful"
-  },
-  {
-      "activity": "iosconfsg23.day2",
-      "start_at": "2023-01-13T09:20:00+00:00",
       "id": 4,
       "speaker_bio": "iOS Conf SG Organisers",
       "speaker_company": "iOSConfSG",
@@ -479,33 +453,33 @@ const schedule = [
       "speaker_twitter": "iosconfsg",
       "talk_description": "Coffee Break",
       "talk_type": "shortbreak",
-      "title": "📸"
+      "title": "Short Break ☕️ 🚻 💬"
     },
     {
       "activity": "iosconfsg23.day2",
-      "start_at": "2023-01-13T09:30:00+00:00",
+      "start_at": "2023-01-13T09:20:00+00:00",
+      "id": 32,
+      "speaker_bio": "",
+      "speaker_company": "",
+      "speaker_image": "priyal",
+      "speaker_name": "Priyal Porwal",
+      "speaker_twitter": "",
+      "talk_description": "Can we end an iOS conference in Singapore without talking about dynamic island?",
+      "talk_type": "lightningTalk",
+      "title": "The Best of Live Activities on Dynamic Island"
+    },
+    {
+      "activity": "iosconfsg23.day2",
+      "start_at": "2023-01-13T09:40:00+00:00",
       "id": 32,
       "speaker_bio": "Adam is a software engineer specialising in audio, animations, interactions, and gestures, currently working at Netflix. He is the creator of a highly performant animation and gestural interaction library called Motion (https://github.com/b3ll/Motion). In his spare time, he enjoys racing cars, messing with synthesizers, listening to records, and dabbling with the internals of Apple products.",
       "speaker_company": "Netflix",
       "speaker_image": "bell",
       "speaker_name": "Adam Bell",
       "speaker_twitter": "b3ll",
-      "talk_description": "🚧",
+      "talk_description": "As applications trend increasingly towards more simplistic / minimal, finding ways to build experiences that are both easy to use and highly interactive are becoming more difficult to do. It doesn't have to be though, and together we'll go over ways that UIKit and SwiftUI can coexist to build great feeling applications on iOS.",
       "talk_type": "normalTalk",
-      "title": "Supercalifragilisticexpialidocious-ly exciting"
-  },  
-    {
-      "activity": "iosconfsg23.day2",
-      "start_at": "2023-01-13T10:05:00+00:00",
-      "id": 20,
-      "speaker_bio": "",
-      "speaker_company": "",
-      "speaker_image": "who",
-      "speaker_name": "🤓",
-      "speaker_twitter": "",
-      "talk_description": "🚧",
-      "talk_type": "lightningTalk",
-      "title": "Last but not least!"
+      "title": "Building Responsive Interactions"
   },
   {
       "activity": "iosconfsg23.day2",
@@ -516,7 +490,7 @@ const schedule = [
       "speaker_image": "subh",
       "speaker_name": "Subhransu",
       "speaker_twitter": "subhransu",
-      "talk_description": "🚧",
+      "talk_description": "🎤",
       "talk_type": "shortbreak",
       "title": "Closing address"
     },
@@ -529,9 +503,9 @@ const schedule = [
       "speaker_image": "who",
       "speaker_name": "Organiser",
       "speaker_twitter": "iosconfsg",
-      "talk_description": "🚧",
+      "talk_description": "One-Way Shuttle Bus Will Be Provided",
       "talk_type": "afterparty",
-      "title": "Afterparty🍻"
+      "title": "Afterparty 🍻 - One-Way Shuttle 🚌 Will Be Provided"
     }
   ]
   
