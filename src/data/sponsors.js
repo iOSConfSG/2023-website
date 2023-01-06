@@ -4,12 +4,18 @@ const sponsors = {
     {
       name: "CircleCI",
       imageHref: "https://circleci.com/",
-      imageUrl: "/images/logo-circleci.png"
+      imageUrl: "/images/logo-circleci.png",
+      heightClass: "h-16",
+      height: 64,
+      width: 300
     },
     {
       name: "Grab",
       imageHref: "https://www.grab.com/sg/",
-      imageUrl: "/images/logo-grab.png"
+      imageUrl: "/images/logo-grab.png",
+      heightClass: "h-20",
+      height: 105,
+      width: 300
     },
   ],
   silver: [

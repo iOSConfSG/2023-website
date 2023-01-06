@@ -1,5 +1,6 @@
 import { SponsorsData } from "@/data"
 import Image from "next/image"
+import classname from "classnames"
 
 export default function SponsorSection () {
   return (
@@ -8,21 +9,20 @@ export default function SponsorSection () {
         <p className="text-center text-4xl font-semibold text-black">
           Gold Sponsors
         </p>
-        <div className="my-12 py-12 flex flex-row items-stretch justify-center lg:mt-8">
+        <div className="my-0 lg:my-12 py-12 flex flex-row flex-wrap items-stretch justify-center gap-8 lg:mt-8">
           {
             SponsorsData['gold'].map((s, index) => (
-              <div key={index} className="col-span-1 bg-white h-16 w-80 flex items-center">
-                  <a href={s.imageHref} target="_blank" rel="noreferrer">
-                    <Image
-                      className="max-w-fit max-h-24"
-                      src={s.imageUrl}
-                      layout="fill"
-                      objectfit="contain"
-                      alt={s.name}
-                      width={256}
-                      height={96}
-                    />
-                  </a>
+              <div key={index} className="relative">
+                <div className={classname("col-span-1 bg-white w-80 flex items-center", s.heightClass)}>
+                    <a href={s.imageHref} target="_blank" rel="noreferrer">
+                      <Image
+                        src={s.imageUrl}
+                        alt={s.name}
+                        width={s.width}
+                        height={s.height}
+                      />
+                    </a>
+                </div>
               </div>
             ))
           }
