@@ -1,15 +1,31 @@
 
 const sponsors = {
+  afterparty: [
+    {
+      name: "OKX",
+      imageHref: "https://www.okx.com/web3",
+      imageUrl: "/images/logo-okx.jpg",
+      heightClass: "h-16",
+      height: 120,
+      width: 300
+    },
+  ],
   gold: [
     {
       name: "CircleCI",
       imageHref: "https://circleci.com/",
-      imageUrl: "/images/logo-circleci.png"
+      imageUrl: "/images/logo-circleci.png",
+      heightClass: "h-16",
+      height: 64,
+      width: 300
     },
     {
       name: "Grab",
       imageHref: "https://www.grab.com/sg/",
-      imageUrl: "/images/logo-grab.png"
+      imageUrl: "/images/logo-grab.png",
+      heightClass: "h-20",
+      height: 105,
+      width: 300
     },
   ],
   silver: [
