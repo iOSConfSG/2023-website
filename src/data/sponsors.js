@@ -1,5 +1,15 @@
 
 const sponsors = {
+  afterparty: [
+    {
+      name: "OKX",
+      imageHref: "https://www.okx.com/web3",
+      imageUrl: "/images/logo-okx.jpg",
+      heightClass: "h-16",
+      height: 120,
+      width: 300
+    },
+  ],
   gold: [
     {
       name: "CircleCI",
