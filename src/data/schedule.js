@@ -165,13 +165,13 @@ const schedule = [
       "speaker_image": "pradnya",
       "speaker_name": "Pradnya Nikam",
       "speaker_twitter": "pradnya_nikam",
-      "talk_description": "⚡️",
+      "talk_description": "Drawing shadows are expensive 🤔 Is this because of the rendering engine? Wait, what does the rendering engine do? Let's find out!",
       "talk_type": "lightningTalk",
-      "title": "Better Ways to Draw Shadows"
+      "title": "Shadow Rendering Performance"
     },
     {
       "activity": "iosconfsg23.day1",
-      "start_at": "2023-01-12T08:45:00+00:00",
+      "start_at": "2023-01-12T08:50:00+00:00",
       "id": 22,
       "speaker_bio": "iOS Conf SG Organisers",
       "speaker_company": "iOSConfSG",
@@ -256,9 +256,9 @@ const schedule = [
 			"speaker_twitter": "mikaela__caron",
 			"speaker_bio": "Mikaela is an iOS Engineer at Lickability. She creates content on YouTube, Instagram, and Twitter, sharing her knowledge about iOS development, and is an organizer of iOSDevHappy Hour.",
       "speaker_name": "Mikaela Caron",
-      "talk_description": "🦄",
+      "talk_description": " Exploring where to save data for an iOS app, in the cloud and locally.",
       "talk_type": "normalTalk",
-      "title": "A unique and refreshing talk"
+      "title": "What's an App Without Data?"
     },
     {
       "activity": "iosconfsg23.day2",
@@ -277,14 +277,14 @@ const schedule = [
       "activity": "iosconfsg23.day2",
       "start_at": "2023-01-13T02:40:00+00:00",
       "id": 20,
-      "speaker_bio": "",
+      "speaker_bio": "Omar is an iOS lead software engineer at Grab with a focus on code architecture as well as developer experience. When he's not writing code you can find him hiking around the Over the river and through the woods.",
       "speaker_company": "Grab",
-      "speaker_image": "who",
-      "speaker_name": "Omar",
+      "speaker_image": "omar",
+      "speaker_name": "Omar Khaled Gawish",
       "speaker_twitter": "",
       "talk_description": "⚡️",
       "talk_type": "lightningTalk",
-      "title": "Demystifying Superapps"
+      "title": "Scaling up a Super-App"
     },
     {
       "activity": "iosconfsg23.day2",
@@ -336,11 +336,11 @@ const schedule = [
       "speaker_twitter": "iosconfsg",
       "talk_description": "Lunch",
       "talk_type": "shortbreak",
-      "title": "Lunch 🍱"
+      "title": "📸"
     },
     {
       "activity": "iosconfsg23.day2",
-      "start_at": "2023-01-13T05:45:00+00:00",
+      "start_at": "2023-01-13T04:20:00+00:00",
       "id": 4,
       "speaker_bio": "iOS Conf SG Organisers",
       "speaker_company": "iOSConfSG",
@@ -349,8 +349,8 @@ const schedule = [
       "speaker_twitter": "iosconfsg",
       "talk_description": "Lunch",
       "talk_type": "shortbreak",
-      "title": "📸"
-  },
+      "title": "Lunch 🍱"
+    },    
     {
       "activity": "iosconfsg23.day2",
       "start_at": "2023-01-13T05:50:00+00:00",
@@ -423,7 +423,7 @@ const schedule = [
       "speaker_bio": "Anya is a decision scientist, engineer, designer and creator of LaminarModes.",
       "speaker_company": "Rolls-Royce",
       "speaker_image": "anya",
-      "speaker_name": "Anya",
+      "speaker_name": "Anya Traille",
       "speaker_twitter": "LaminarModes",
       "talk_description": "🎨",
       "talk_type": "normalTalk",
