@@ -28,11 +28,20 @@ const sponsors = {
       width: 300
     },
   ],
-  silver: [
+  silver: [        
     {
       name: "Stream",
       imageHref: "https://getstream.io/tutorials/ios-chat/?utm_source=iOSConfSG&utm_medium=Whole_Event_L&utm_content=Developer&utm_campaign=iOSConfSG_January2023_iOSSDK_klmh22",
-      imageUrl: "/images/logo-stream.png"
+      imageUrl: "/images/logo-stream.png",
+      height: 160,
+      width: 256
+    },
+    {
+      name: "CU Society",
+      imageHref: "https://cu.sg",
+      imageUrl: "/images/logo-cu.png",
+      height: 70,
+      width: 70
     },
   ],
   coffee: [

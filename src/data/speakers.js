@@ -180,14 +180,14 @@ const speakers = [
     "bio": "Daniel is the author of more than a dozen books including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena. He presents iOS, Functional Programming, SwiftUI, and Swift training and consults through his company Dim Sum Thinking. He has written apps for the iPhone and the iPad since the SDKs first appeared and has written programs for the Mac all the way back to System 7. When he's not coding or talking about coding for the Mac, the iPhone, and the iPad he's probably cooking, baking bread, or hanging out with friends."
   },   
   {
-    "name": "More speakers to be announced",
-    "company": "",
-    "imageUrl": "/images/speakers/organiser.png",
-    "companyUrl": "",
-    "twitter": "iosconfsg",
-    "linkedin": "",
-    "shortBio": "We'll update this list soon, stay tuned!",
-    "bio": "Stay tuned"
+    "name": "Omar Khaled Gawish",
+    "company": "Grab",
+    "imageUrl": "/images/speakers/omar.jpg",
+    "companyUrl": "Omar Khaled Gawish",
+    "twitter": "",
+    "linkedin": "gawish",
+    "shortBio": "Omar is an iOS lead software engineer at Grab with a focus on code architecture as well as developer experience. When he's not writing code you can find him hiking around the Over the river and through the woods.",
+    "bio": "Omar is an iOS lead software engineer at Grab with a focus on code architecture as well as developer experience. When he's not writing code you can find him hiking around the Over the river and through the woods."
   },
 ]
 export default speakers
