@@ -425,9 +425,9 @@ const schedule = [
       "speaker_image": "anya",
       "speaker_name": "Anya Traille",
       "speaker_twitter": "LaminarModes",
-      "talk_description": "🎨",
+      "talk_description": "Information can be represented in multiple forms including colors, text, icons, charts and numbers. This talk introduces accessible colormaps and the different ways they can be incorporated into swift, from color palette generation to data and information visualization.In addition, we touch on UI style and aesthetics as this is a very important factor to consider in order to make data visualizations both compelling and engaging.",
       "talk_type": "normalTalk",
-      "title": "Beyond RGB: Designing Delightful Apps"
+      "title": "Exploring Colormaps and UI Styles for Data and Information Visualization"
     },    
     {
       "activity": "iosconfsg23.day2",
