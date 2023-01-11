@@ -33,8 +33,8 @@ const sponsors = {
       name: "Stream",
       imageHref: "https://getstream.io/tutorials/ios-chat/?utm_source=iOSConfSG&utm_medium=Whole_Event_L&utm_content=Developer&utm_campaign=iOSConfSG_January2023_iOSSDK_klmh22",
       imageUrl: "/images/logo-stream.png",
-      height: 160,
-      width: 256
+      height: 41,
+      width: 234
     },
     {
       name: "CU Society",
@@ -49,6 +49,15 @@ const sponsors = {
       name: "GovTech",
       imageHref: "https://www.tech.gov.sg/",
       imageUrl: "/images/logo-govtech.jpg"
+    },
+  ],
+  food: [
+    {
+      name: "Dyson",
+      imageHref: "https://careers.dyson.com/en-gb/what-you-can-do/engineer/mobile-apps",
+      imageUrl: "/images/logo-dyson.png",
+      width: 196,
+      height: 109
     },
   ]
 }
