@@ -71,13 +71,34 @@ export default function SponsorSection () {
             ))
           }
         </div>
+        <p className="text-center mt-6 text-3xl font-semibold text-black">
+          Food 🍱 Sponsor
+        </p>
+        <div className="my-0 lg:my-12 flex flex-row flex-wrap items-center justify-center gap-8 lg:mt-8">
+          {
+            SponsorsData['food'].map((s, index) => (
+              <div key={index} className="relative">
+                <div className={classname("col-span-1 bg-white flex justify-center items-center")}>
+                  <a href={s.imageHref} target="_blank" rel="noreferrer">
+                    <Image
+                      src={s.imageUrl}
+                      alt={s.name}
+                      width={s.width}
+                      height={s.height}
+                    />
+                  </a>
+                  </div>
+              </div>
+            ))
+          }
+        </div>
         <p className="mt-6 text-center text-2xl font-semibold text-black">
           Silver Sponsors 
         </p>
         <div className="mt-6 flex justify-center lg:mt-8">
           {
             SponsorsData['silver'].map((s, index) => (
-              <div key={index} className="col-span-1 flex justify-center py-8 px-8 bg-white">
+              <div key={index} className="col-span-1 flex justify-center items-center py-8 px-8 bg-white">
                 <div className="relative">
                   <a href={s.imageHref} target="_blank" rel="noreferrer">
                     <Image
