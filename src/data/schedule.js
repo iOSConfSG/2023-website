@@ -191,7 +191,7 @@ const schedule = [
       "speaker_image": "erin",
       "speaker_name": "Erin Weigel",
       "speaker_twitter": "endesignonline",
-      "talk_description": "Experimentation for Engineers",
+      "talk_description": "In this talk, Erin shares how the conversion design process and A/B testing helps you understand the impact of your work. You'll learn how iOS engineers can contribute their skills to improve both the customer experience and business results. And you'll see a few fun examples of surprising A/B test results. Get excited for her upcoming book, published by Rosenfeld Media, called \"Design for Impact.\" It's all about product experimentation, and it will be released in 2024. Check out www.erindoesthings.com to get notified when it's released! ",
       "talk_type": "normalTalk",
       "title": "Experimentation for Engineers"
     },
