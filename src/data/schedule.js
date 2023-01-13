@@ -383,11 +383,11 @@ const schedule = [
       "id": 20,
       "speaker_bio": "Organiser",
       "speaker_company": "Organiser",
-      "speaker_image": "janina",
-      "speaker_name": "Janina Kutyn",
+      "speaker_image": "timoliver",
+      "speaker_name": "Tim Oliver",
       "speaker_twitter": "",
-      "talk_description": "Janina discussing with Paul, Erin, Tunde and Mikaela",
-      "talk_type": "Janina discussing with Paul, Erin, Tunde and Mikaela",
+      "talk_description": "Tim Oliver discussing with Paul, Erin, Tunde and Mikaela",
+      "talk_type": "panel",
       "title": "More Than Code: Rooting Yourself in the iOS Community"
     },
     {
